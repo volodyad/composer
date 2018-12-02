@@ -35,7 +35,7 @@ const argv = require('yargs')
     })
     .argv;
 
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 Logger.setCLIDefaults();
 const LOG = Logger.getLog('PlaygroundAPI');
 

@@ -14,12 +14,12 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const fs = require('fs');
 const http = require('http');
 const https = require('https');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const path = require('path');
 const server = require('../../server/server');
 const WebSocket = require('ws');
@@ -41,7 +41,7 @@ describe('server', () => {
     let cardStore;
 
     before(() => {
-        cardStore = require('composer-common').NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory' } );
+        cardStore = require('@sp-temp/composer-common').NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory' } );
         const adminConnection = new AdminConnection({ cardStore });
         let metadata = { version:1, userName: 'admin', enrollmentSecret: 'adminpw', roles: ['PeerAdmin', 'ChannelAdmin'] };
         const deployCardName = 'deployer-card';

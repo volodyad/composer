@@ -14,8 +14,8 @@
 
 'use strict';
 
-const composerUtil = require('composer-common').Util;
-const Logger = require('composer-common').Logger;
+const composerUtil = require('@sp-temp/composer-common').Util;
+const Logger = require('@sp-temp/composer-common').Logger;
 const util = require('util');
 const fs = require('fs');
 const fsextra = require('fs-extra');
@@ -51,10 +51,10 @@ global.hfc = {
 
 
 const Client = require('fabric-client');
-const ConnectionManager = require('composer-common').ConnectionManager;
+const ConnectionManager = require('@sp-temp/composer-common').ConnectionManager;
 const HLFConnection = require('./hlfconnection');
 const HLFWalletProxy = require('./hlfwalletproxy');
-const Wallet = require('composer-common').Wallet;
+const Wallet = require('@sp-temp/composer-common').Wallet;
 
 let HSMSuite = new Map();
 

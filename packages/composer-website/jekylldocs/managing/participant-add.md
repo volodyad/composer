@@ -36,7 +36,7 @@ participant Person identified by personId {
   * JavaScript API
 
 ```javascript
-    const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+    const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
     async function addParticipant() {
         let businessNetworkConnection = new BusinessNetworkConnection();

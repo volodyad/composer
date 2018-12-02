@@ -14,13 +14,13 @@
 
 'use strict';
 
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 const BusinessNetworkConnectionWrapper = require('../lib/businessnetworkconnectionwrapper');
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const Introspector = require('composer-common').Introspector;
-const ModelManager = require('composer-common').ModelManager;
-const Serializer = require('composer-common').Serializer;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const Introspector = require('@sp-temp/composer-common').Introspector;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 
 const chai = require('chai');
 chai.should();

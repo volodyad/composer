@@ -51,7 +51,7 @@ and the unique identifier for that identity is 'f1c5b9fe136d7f2d31b927e0dcb74549
   * JavaScript API
 
 ```javascript
-    const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+    const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
     async function revoke() {
         let businessNetworkConnection = new BusinessNetworkConnection();

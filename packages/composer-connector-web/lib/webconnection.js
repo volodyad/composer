@@ -14,10 +14,10 @@
 
 'use strict';
 
-const { Certificate, CertificateUtil, Connection, Util } = require('composer-common');
-const { Engine, InstalledBusinessNetwork } = require('composer-runtime');
+const { Certificate, CertificateUtil, Connection, Util } = require('@sp-temp/composer-common');
+const { Engine, InstalledBusinessNetwork } = require('@sp-temp/composer-runtime');
 const uuid = require('uuid');
-const { WebContainer, WebContext, WebDataService } = require('composer-runtime-web');
+const { WebContainer, WebContext, WebDataService } = require('@sp-temp/composer-runtime-web');
 const ChaincodeStore = require('./chaincodestore');
 const WebSecurityContext = require('./websecuritycontext');
 

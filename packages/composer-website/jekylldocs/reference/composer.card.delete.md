@@ -26,7 +26,7 @@ Options:
 ## Javascript API Example
 
 ```javascript
-const CardDelete = require('composer-cli').Card.Delete;
+const CardDelete = require('@sp-temp/composer-cli').Card.Delete;
 
 let options = {
   card: 'admin@tutorial-network'

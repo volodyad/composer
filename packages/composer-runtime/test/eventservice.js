@@ -14,7 +14,7 @@
 
 'use strict';
 const EventService = require('../lib/eventservice');
-const Serializer = require('composer-common').Serializer;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 
 const should = require('chai').should();
 require('chai-as-promised');

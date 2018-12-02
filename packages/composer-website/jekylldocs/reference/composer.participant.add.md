@@ -43,7 +43,7 @@ Example: `'{"$class":"net.biz.digitalPropertyNetwork.Person","personId":"mae@biz
 ## Javascript API Example
 
 ``` javascript
-const ParticipantAdd = require('composer-cli').Participant.Add;
+const ParticipantAdd = require('@sp-temp/composer-cli').Participant.Add;
 
 let options = {
   card: 'admin@tutorial-network',

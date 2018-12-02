@@ -14,8 +14,8 @@
 
 'use strict';
 
-const EventService = require('composer-runtime').EventService;
-const Logger = require('composer-common').Logger;
+const EventService = require('@sp-temp/composer-runtime').EventService;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const LOG = Logger.getLog('EmbeddedEventService');
 

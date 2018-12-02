@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Container = require('composer-runtime').Container;
+const Container = require('@sp-temp/composer-runtime').Container;
 const EmbeddedLoggingService = require('./embeddedloggingservice');
 const uuid = require('uuid');
 const version = require('../package.json').version;

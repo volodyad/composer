@@ -15,7 +15,7 @@
 const winston = require('winston');
 const fs = require('fs');
 
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 
 // load the generators
 const basics = require('./generators/basics');

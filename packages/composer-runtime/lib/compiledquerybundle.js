@@ -15,7 +15,7 @@
 'use strict';
 
 const createHash = require('sha.js');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const LOG = Logger.getLog('CompiledQueryBundle');
 

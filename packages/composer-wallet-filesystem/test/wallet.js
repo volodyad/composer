@@ -25,7 +25,7 @@ const fs = require('fs');
 const CLOUD_CONFIG = require('./config');
 const cloneDeep = require('lodash').cloneDeep;
 
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const minimalCard = new IdCard({ userName: 'minimal' }, { name: 'minimal' });
 
 describe('Composer wallet implementation', function () {

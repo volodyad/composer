@@ -13,7 +13,7 @@
  */
 
 'use strict';
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const FABRIC_CONSTANTS = require('fabric-client/lib/Constants');
 
 const LOG = Logger.getLog('HLFQueryHandler');

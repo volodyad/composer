@@ -14,15 +14,15 @@
 
 'use strict';
 
-const AssetDeclaration = require('composer-common').AssetDeclaration;
+const AssetDeclaration = require('@sp-temp/composer-common').AssetDeclaration;
 const CallbackRelationship = require('./callbackrelationship');
-const Concept = require('composer-common').Concept;
+const Concept = require('@sp-temp/composer-common').Concept;
 const InvalidRelationship = require('./invalidrelationship');
-const Logger = require('composer-common').Logger;
-const ParticipantDeclaration = require('composer-common').ParticipantDeclaration;
-const Relationship = require('composer-common').Relationship;
-const Resource = require('composer-common').Resource;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
+const Logger = require('@sp-temp/composer-common').Logger;
+const ParticipantDeclaration = require('@sp-temp/composer-common').ParticipantDeclaration;
+const Relationship = require('@sp-temp/composer-common').Relationship;
+const Resource = require('@sp-temp/composer-common').Resource;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
 
 const LOG = Logger.getLog('Resolver');
 

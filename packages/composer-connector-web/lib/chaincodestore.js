@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { BusinessNetworkDefinition } = require('composer-common');
+const { BusinessNetworkDefinition } = require('@sp-temp/composer-common');
 
 const BUFFER_ENCODING = 'binary';
 

@@ -14,11 +14,11 @@
 
 'use strict';
 
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
-const ConnectorServer = require('composer-connector-server');
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
+const ConnectorServer = require('@sp-temp/composer-connector-server');
 const http = require('http');
-const Logger = require('composer-common').Logger;
-const NetworkCardStoreManager = require('composer-common').NetworkCardStoreManager;
+const Logger = require('@sp-temp/composer-common').Logger;
+const NetworkCardStoreManager = require('@sp-temp/composer-common').NetworkCardStoreManager;
 const npmRoute = require('./routes/npm');
 const socketIO = require('socket.io');
 const Util = require('./lib/util');

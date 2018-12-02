@@ -14,13 +14,13 @@
 
 'use strict';
 
-const Connection = require('composer-common').Connection;
+const Connection = require('@sp-temp/composer-common').Connection;
 const fs = require('fs-extra');
 const HLFSecurityContext = require('./hlfsecuritycontext');
 const HLFUtil = require('./hlfutil');
 const HLFTxEventHandler = require('./hlftxeventhandler');
 const HLFQueryHandler = require('./hlfqueryhandler');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const path = require('path');
 const temp = require('temp').track();
 const semver = require('semver');
@@ -30,7 +30,7 @@ const User = require('fabric-client/lib/User.js');
 const TransactionID = require('fabric-client/lib/TransactionID');
 const FABRIC_CONSTANTS = require('fabric-client/lib/Constants');
 
-const IndexCompiler = require('composer-common').IndexCompiler;
+const IndexCompiler = require('@sp-temp/composer-common').IndexCompiler;
 
 const LOG = Logger.getLog('HLFConnection');
 

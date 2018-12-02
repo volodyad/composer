@@ -14,7 +14,7 @@
 
 'use strict';
 
-const BaseException = require('composer-common').BaseException;
+const BaseException = require('@sp-temp/composer-common').BaseException;
 
 /**
 * Class representing an access exception

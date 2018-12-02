@@ -14,9 +14,9 @@
 
 'use strict';
 
-const { Certificate, ConnectionManager } = require('composer-common');
+const { Certificate, ConnectionManager } = require('@sp-temp/composer-common');
 const EmbeddedConnection = require('./embeddedconnection');
-const EmbeddedDataService = require('composer-runtime-embedded').EmbeddedDataService;
+const EmbeddedDataService = require('@sp-temp/composer-runtime-embedded').EmbeddedDataService;
 const uuid = require('uuid');
 
 const IDENTITY_COLLECTION_ID = 'identities';

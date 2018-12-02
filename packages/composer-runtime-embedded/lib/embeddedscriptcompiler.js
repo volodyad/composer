@@ -15,9 +15,9 @@
 'use strict';
 
 const libInstrument = require('istanbul-lib-instrument');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const path = require('path');
-const ScriptCompiler = require('composer-runtime').ScriptCompiler;
+const ScriptCompiler = require('@sp-temp/composer-runtime').ScriptCompiler;
 
 const LOG = Logger.getLog('EmbeddedScriptCompiler');
 

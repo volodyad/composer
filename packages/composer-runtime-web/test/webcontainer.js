@@ -14,8 +14,8 @@
 
 'use strict';
 
-const Container = require('composer-runtime').Container;
-const LoggingService = require('composer-runtime').LoggingService;
+const Container = require('@sp-temp/composer-runtime').Container;
+const LoggingService = require('@sp-temp/composer-runtime').LoggingService;
 const WebContainer = require('..').WebContainer;
 const version = require('../package.json').version;
 

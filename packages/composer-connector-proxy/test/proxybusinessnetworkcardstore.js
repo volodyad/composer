@@ -18,7 +18,7 @@
 require('..');
 const serializerr = require('serializerr');
 
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 
 const chai = require('chai');
 chai.should();

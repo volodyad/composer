@@ -14,7 +14,7 @@
 
 'use strict';
 
-const DataService = require('composer-runtime').DataService;
+const DataService = require('@sp-temp/composer-runtime').DataService;
 const WebDataService = require('..').WebDataService;
 
 require('chai').should();

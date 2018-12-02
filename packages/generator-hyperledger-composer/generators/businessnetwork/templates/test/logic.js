@@ -17,9 +17,9 @@
  * Write the unit tests for your transction processor functions here
  */
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const { BusinessNetworkDefinition, CertificateUtil, IdCard } = require('composer-common');
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const { BusinessNetworkDefinition, CertificateUtil, IdCard } = require('@sp-temp/composer-common');
 const path = require('path');
 
 const chai = require('chai');
@@ -34,7 +34,7 @@ const participantNS = namespace + '.' + participantType;
 
 describe('#' + namespace, () => {
     // In-memory card store for testing so cards are not persisted to the file system
-    const cardStore = require('composer-common').NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory' } );
+    const cardStore = require('@sp-temp/composer-common').NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory' } );
 
     // Embedded connection used for local testing
     const connectionProfile = {

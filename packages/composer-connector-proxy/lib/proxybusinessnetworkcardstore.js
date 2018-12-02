@@ -14,11 +14,11 @@
 
 'use strict';
 
-const IdCard = require('composer-common').IdCard;
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
+const IdCard = require('@sp-temp/composer-common').IdCard;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
 const ProxyUtil = require('./proxyutil');
 const socketIOClient = require('socket.io-client');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const LOG = Logger.getLog('ProxyConnectionProfileStore');
 

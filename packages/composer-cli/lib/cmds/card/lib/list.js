@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Certificate = require('composer-common').Certificate;
+const Certificate = require('@sp-temp/composer-common').Certificate;
 const chalk = require('chalk');
 const cmdUtil = require('../../utils/cmdutils');
 const Pretty = require('prettyjson');

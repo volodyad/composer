@@ -20,7 +20,7 @@
  * around this, the packages that require the connectors register themselves as
  * modules that can load connection managers.
  */
-require('composer-common').ConnectionProfileManager.registerConnectionManagerLoader(module);
+require('@sp-temp/composer-common').ConnectionProfileManager.registerConnectionManagerLoader(module);
 
 /**
  * <p>
@@ -38,6 +38,6 @@ module.exports.AdminConnection = require('./lib/adminconnection');
  * Expose key composer-common classes to simplify client application dependencies
  * @ignore
  */
-module.exports.BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-module.exports.Logger = require('composer-common').Logger;
+module.exports.BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+module.exports.Logger = require('@sp-temp/composer-common').Logger;
 module.exports.version = require('./package.json');

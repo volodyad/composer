@@ -14,7 +14,7 @@
 import { BusinessNetworkCardStore, IdCard } from 'composer-common';
 import { BrowserBusinessNetworkCardStore } from './browserbusinessnetworkcardstore';
 /* tslint:disable:no-var-requires */
-const ProxyBusinessNetworkCardStore = require('composer-connector-proxy').ProxyBusinessNetworkCardStore;
+const ProxyBusinessNetworkCardStore = require('@sp-temp/composer-connector-proxy').ProxyBusinessNetworkCardStore;
 
 /**
  * The playground connection profile store provides a combined view over a connection

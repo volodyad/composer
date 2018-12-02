@@ -14,10 +14,10 @@
 
 'use strict';
 
-const { AdminConnection } = require('composer-admin');
+const { AdminConnection } = require('@sp-temp/composer-admin');
 const assert = require('yeoman-assert');
 const fs = require('fs');
-const { BusinessNetworkDefinition, IdCard, NetworkCardStoreManager } = require('composer-common');
+const { BusinessNetworkDefinition, IdCard, NetworkCardStoreManager } = require('@sp-temp/composer-common');
 const generator = require('../generators/loopback');
 const helpers = require('yeoman-test');
 const path = require('path');

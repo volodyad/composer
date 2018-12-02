@@ -65,7 +65,7 @@ Please refer to [Connector specific information](../managing/connector-informati
 ## Javascript API Example
 
 ``` javascript
-const IdentityIssue = require('composer-cli').Identity.Issue;
+const IdentityIssue = require('@sp-temp/composer-cli').Identity.Issue;
 
 let options = {
   card: 'admin@tutorial-network',

@@ -16,7 +16,7 @@
 
 const AssetRegistry = require('../../lib/api/assetregistry');
 const Registry = require('../../lib/registry');
-const Resource = require('composer-common').Resource;
+const Resource = require('@sp-temp/composer-common').Resource;
 
 const chai = require('chai');
 chai.should();

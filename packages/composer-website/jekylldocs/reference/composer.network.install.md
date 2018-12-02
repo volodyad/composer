@@ -34,7 +34,7 @@ Please refer to [Connector specific information](../managing/connector-informati
 ## Javascript API Example
 
 ``` javascript
-const NetworkInstall = require('composer-cli').Network.Install;
+const NetworkInstall = require('@sp-temp/composer-cli').Network.Install;
 
 let options = {
   archiveFile: 'digitalPropertyNetwork.bna',

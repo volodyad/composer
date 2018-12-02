@@ -14,16 +14,16 @@
 
 'use strict';
 
-const { BusinessNetworkDefinition, Certificate, Connection, ConnectionManager } = require('composer-common');
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
-const Context = require('composer-runtime').Context;
-const DataCollection = require('composer-runtime').DataCollection;
-const DataService = require('composer-runtime').DataService;
-const Engine = require('composer-runtime').Engine;
-const LoggingService = require('composer-runtime').LoggingService;
+const { BusinessNetworkDefinition, Certificate, Connection, ConnectionManager } = require('@sp-temp/composer-common');
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
+const Context = require('@sp-temp/composer-runtime').Context;
+const DataCollection = require('@sp-temp/composer-runtime').DataCollection;
+const DataService = require('@sp-temp/composer-runtime').DataService;
+const Engine = require('@sp-temp/composer-runtime').Engine;
+const LoggingService = require('@sp-temp/composer-runtime').LoggingService;
 const uuid = require('uuid');
 const WebConnection = require('../lib/webconnection');
-const WebContainer = require('composer-runtime-web').WebContainer;
+const WebContainer = require('@sp-temp/composer-runtime-web').WebContainer;
 const WebSecurityContext = require('../lib/websecuritycontext');
 
 const chai = require('chai');

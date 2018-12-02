@@ -14,7 +14,7 @@
 
 'use strict';
 
-const common = require('composer-common');
+const common = require('@sp-temp/composer-common');
 const BusinessNetworkMetadata = common.BusinessNetworkMetadata;
 
 /**

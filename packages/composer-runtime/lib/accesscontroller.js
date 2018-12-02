@@ -15,8 +15,8 @@
 'use strict';
 
 const AccessException = require('./accessexception');
-const Logger = require('composer-common').Logger;
-const ModelUtil = require('composer-common').ModelUtil;
+const Logger = require('@sp-temp/composer-common').Logger;
+const ModelUtil = require('@sp-temp/composer-common').ModelUtil;
 
 const LOG = Logger.getLog('AccessController');
 

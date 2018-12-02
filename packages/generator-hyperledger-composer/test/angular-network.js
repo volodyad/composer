@@ -14,12 +14,12 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 const assert = require('yeoman-assert');
-const {BusinessNetworkDefinition} = require('composer-common');
+const {BusinessNetworkDefinition} = require('@sp-temp/composer-common');
 const fs = require('fs');
 const helpers = require('yeoman-test');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const path = require('path');
 const version = require('../package.json').version;
 
@@ -33,7 +33,7 @@ describe('hyperledger-composer:angular for digitalPropertyNetwork running agains
             'x-type' : 'embedded',
             name : 'generatorProfile'
         });
-        require('composer-common').NetworkCardStoreManager;
+        require('@sp-temp/composer-common').NetworkCardStoreManager;
         const adminConnection = new AdminConnection();
 
         const deployCardName = 'deployer-card';

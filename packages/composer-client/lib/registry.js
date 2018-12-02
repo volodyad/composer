@@ -14,8 +14,8 @@
 
 'use strict';
 
-const Resource = require('composer-common').Resource;
-const Util = require('composer-common').Util;
+const Resource = require('@sp-temp/composer-common').Resource;
+const Util = require('@sp-temp/composer-common').Util;
 
 /**
  * Class representing an Abstract Registry.

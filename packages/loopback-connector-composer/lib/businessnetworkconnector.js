@@ -14,22 +14,22 @@
 
 'use strict';
 
-const AssetDeclaration = require('composer-common').AssetDeclaration;
+const AssetDeclaration = require('@sp-temp/composer-common').AssetDeclaration;
 const BusinessNetworkConnectionWrapper = require('./businessnetworkconnectionwrapper');
-const ConceptDeclaration = require('composer-common').ConceptDeclaration;
+const ConceptDeclaration = require('@sp-temp/composer-common').ConceptDeclaration;
 const Connector = require('loopback-connector').Connector;
 const crypto = require('crypto');
 const debug = require('debug')('loopback:connector:composer');
 const EventEmitter = require('events');
-const IdCard = require('composer-common').IdCard;
-const LoopbackVisitor = require('composer-common').LoopbackVisitor;
+const IdCard = require('@sp-temp/composer-common').IdCard;
+const LoopbackVisitor = require('@sp-temp/composer-common').LoopbackVisitor;
 const NodeCache = require('node-cache');
-const ParticipantDeclaration = require('composer-common').ParticipantDeclaration;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
-const QueryAnalyzer = require('composer-common').QueryAnalyzer;
+const ParticipantDeclaration = require('@sp-temp/composer-common').ParticipantDeclaration;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
+const QueryAnalyzer = require('@sp-temp/composer-common').QueryAnalyzer;
 const util = require('util');
 const FilterParser = require('./filterparser');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 /**
  * A Loopback connector for exposing the Blockchain Solution Framework to Loopback enabled applications.

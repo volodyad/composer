@@ -14,8 +14,8 @@
 
 'use strict';
 
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
-const IdCard = require('composer-common').IdCard;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const LoopBackWallet = require('./loopbackwallet');
 
 /**

@@ -14,9 +14,9 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 const fs = require('fs');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const LoopBackCardStore = require('../../lib/loopbackcardstore');
 const Util = require('../../lib/util');
 

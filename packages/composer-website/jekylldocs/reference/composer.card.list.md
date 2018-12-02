@@ -27,7 +27,7 @@ Options:
 ## Javascript API Example
 
 ```javascript
-const CardList = require('composer-cli').Card.List;
+const CardList = require('@sp-temp/composer-cli').Card.List;
 
 let options = {
   card: 'admin@tutorial-network'

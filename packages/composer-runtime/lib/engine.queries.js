@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const Registry = require('./registry');
 const util = require('util');
 

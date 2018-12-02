@@ -14,9 +14,9 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 const fs = require('fs');
 const prompt = require('prompt');
 

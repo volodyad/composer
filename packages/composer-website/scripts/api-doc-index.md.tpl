@@ -76,13 +76,13 @@ The starting point for these APIs are the `AdminConnection` or `BusinessNetworkC
 A name of an already imported business network card is needed. By default these cards are ready from the file system card store.
 
 ```javascript
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 
 let adminConnection = new AdminConnection();
 await adminConnection.connect('cardNameToUse');
 
 //
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
 let bizNetConnection = new BusinessNetworkConnection();
 let businessNetworkDefintion = await bizNetConnection.connect('cardNameToUse');

@@ -51,7 +51,7 @@ composer transaction submit -c maeid1@digitalproperty-network -d '{"$class":"net
 ## Javascript API Example
 
 ``` javascript
-const TransactionSubmit = require('composer-cli').Transaction.Submit;
+const TransactionSubmit = require('@sp-temp/composer-cli').Transaction.Submit;
 
 let options = {
   card: 'admin@tutorial-network',

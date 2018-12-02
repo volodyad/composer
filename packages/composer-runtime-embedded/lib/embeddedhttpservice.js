@@ -14,8 +14,8 @@
 
 'use strict';
 
-const HTTPService = require('composer-runtime').HTTPService;
-const Logger = require('composer-common').Logger;
+const HTTPService = require('@sp-temp/composer-runtime').HTTPService;
+const Logger = require('@sp-temp/composer-common').Logger;
 const request = require('request');
 const LOG = Logger.getLog('EmbeddedHTTPService');
 

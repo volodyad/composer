@@ -16,7 +16,7 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
 const fs = require('fs');
 const InstallCmd = require('../../lib/cmds/network/installCommand.js');

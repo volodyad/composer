@@ -13,7 +13,7 @@
  */
 
 'use strict';
-let common = require('composer-common');
+let common = require('@sp-temp/composer-common');
 let path = require('path');
 let fs = require('fs');
 let assert = require('yeoman-assert');

@@ -15,9 +15,9 @@
 'use strict';
 
 const CallbackRelationship = require('../lib/callbackrelationship');
-const Factory = require('composer-common').Factory;
-const ModelManager = require('composer-common').ModelManager;
-const Relationship = require('composer-common').Relationship;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const Relationship = require('@sp-temp/composer-common').Relationship;
 
 require('chai').should();
 const sinon = require('sinon');

@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
 const chalk = require('chalk');
 const fs = require('fs');

@@ -15,10 +15,10 @@
 'use strict';
 const sinon = require('sinon');
 
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const BusinessNetworkMetadata = require('composer-common').BusinessNetworkMetadata;
-const Logger = require('composer-common').Logger;
-const QueryFile = require('composer-common').QueryFile;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const BusinessNetworkMetadata = require('@sp-temp/composer-common').BusinessNetworkMetadata;
+const Logger = require('@sp-temp/composer-common').Logger;
+const QueryFile = require('@sp-temp/composer-common').QueryFile;
 
 const Channel = require('fabric-client/lib/Channel');
 const Client = require('fabric-client');

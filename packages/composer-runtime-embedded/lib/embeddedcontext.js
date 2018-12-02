@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Context = require('composer-runtime').Context;
+const Context = require('@sp-temp/composer-runtime').Context;
 const EmbeddedDataService = require('./embeddeddataservice');
 const EmbeddedIdentityService = require('./embeddedidentityservice');
 const EmbeddedEventService = require('./embeddedeventservice');

@@ -14,10 +14,10 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const fs = require('fs');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const ExportCmd = require('../../lib/cmds/card/exportCommand.js');
 
 

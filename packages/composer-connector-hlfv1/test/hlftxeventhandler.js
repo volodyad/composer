@@ -16,7 +16,7 @@
 
 const HLFTxEventHandler = require('../lib/hlftxeventhandler');
 const ChannelEventHub = require('fabric-client/lib/ChannelEventHub');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const HLFUtil = require('../lib/hlfutil');
 
 const sinon = require('sinon');

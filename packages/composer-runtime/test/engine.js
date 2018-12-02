@@ -14,19 +14,19 @@
 
 'use strict';
 
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const Container = require('../lib/container');
 const Context = require('../lib/context');
 const DataCollection = require('../lib/datacollection');
 const DataService = require('../lib/dataservice');
 const Engine = require('../lib/engine');
-const Factory = require('composer-common').Factory;
-const Logger = require('composer-common').Logger;
+const Factory = require('@sp-temp/composer-common').Factory;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LoggingService = require('../lib/loggingservice');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const RegistryManager = require('../lib/registrymanager');
-const Resource = require('composer-common').Resource;
-const Serializer = require('composer-common').Serializer;
+const Resource = require('@sp-temp/composer-common').Resource;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const version = require('../package.json').version;
 
 const chai = require('chai');

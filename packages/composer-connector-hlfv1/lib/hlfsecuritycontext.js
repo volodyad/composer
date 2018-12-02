@@ -14,7 +14,7 @@
 
 'use strict';
 
-const SecurityContext = require('composer-common').SecurityContext;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
 
 /**
  * Class representing a logged in Hyperledger Fabric user.

@@ -15,7 +15,7 @@
 'use strict';
 
 const debug = require('debug')('composer:runtime:embedded');
-const LoggingService = require('composer-runtime').LoggingService;
+const LoggingService = require('@sp-temp/composer-runtime').LoggingService;
 
 /**
  * Base class representing the logging service provided by a {@link Container}.

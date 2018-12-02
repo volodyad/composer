@@ -14,7 +14,7 @@
 
 'use strict';
 
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const fs = require('fs');
 const path = require('path');
 const TestUtil = require('./testutil');

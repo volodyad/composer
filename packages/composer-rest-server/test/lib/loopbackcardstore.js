@@ -15,7 +15,7 @@
 'use strict';
 
 const boot = require('loopback-boot');
-const { IdCard, Wallet } = require('composer-common');
+const { IdCard, Wallet } = require('@sp-temp/composer-common');
 const loopback = require('loopback');
 require('loopback-component-passport');
 const LoopBackCardStore = require('../../lib/loopbackcardstore');

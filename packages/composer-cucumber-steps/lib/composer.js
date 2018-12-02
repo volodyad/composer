@@ -14,16 +14,16 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const EventDeclaration = require('composer-common').EventDeclaration;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const EventDeclaration = require('@sp-temp/composer-common').EventDeclaration;
 const path = require('path');
-const RelationshipDeclaration = require('composer-common').RelationshipDeclaration;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
+const RelationshipDeclaration = require('@sp-temp/composer-common').RelationshipDeclaration;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
 const thenifyAll = require('thenify-all');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 
 
 require('chai').should();

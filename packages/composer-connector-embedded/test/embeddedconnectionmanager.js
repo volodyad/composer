@@ -14,8 +14,8 @@
 
 'use strict';
 
-const { Certificate, CertificateUtil, Connection, ConnectionManager, ConnectionProfileManager } = require('composer-common');
-const DataCollection = require('composer-runtime').DataCollection;
+const { Certificate, CertificateUtil, Connection, ConnectionManager, ConnectionProfileManager } = require('@sp-temp/composer-common');
+const DataCollection = require('@sp-temp/composer-runtime').DataCollection;
 const EmbeddedConnectionManager = require('..');
 const uuid = require('uuid');
 

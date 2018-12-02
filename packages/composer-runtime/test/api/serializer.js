@@ -15,8 +15,8 @@
 'use strict';
 
 const Serializer = require('../../lib/api/serializer');
-const realSerializer = require('composer-common').Serializer;
-const Resource = require('composer-common').Resource;
+const realSerializer = require('@sp-temp/composer-common').Serializer;
+const Resource = require('@sp-temp/composer-common').Resource;
 
 const chai = require('chai');
 chai.should();

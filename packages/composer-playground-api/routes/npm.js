@@ -29,10 +29,10 @@ const url = require('url');
 const async = require('async');
 const httpstatus = require('http-status');
 
-const composerVersion = require('composer-common/package.json').version;
+const composerVersion = require('@sp-temp/composer-common/package.json').version;
 
 const express = require('express');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const LOG = Logger.getLog('NPM');
 

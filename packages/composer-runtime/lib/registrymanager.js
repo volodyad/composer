@@ -14,11 +14,11 @@
 
 'use strict';
 
-const AssetDeclaration = require('composer-common').AssetDeclaration;
+const AssetDeclaration = require('@sp-temp/composer-common').AssetDeclaration;
 const EventEmitter = require('events');
-const Logger = require('composer-common').Logger;
-const ParticipantDeclaration = require('composer-common').ParticipantDeclaration;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
+const Logger = require('@sp-temp/composer-common').Logger;
+const ParticipantDeclaration = require('@sp-temp/composer-common').ParticipantDeclaration;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
 const Registry = require('./registry');
 
 const LOG = Logger.getLog('RegistryManager');

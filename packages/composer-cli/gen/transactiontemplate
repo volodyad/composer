@@ -5,9 +5,9 @@
 'use strict';
 const fs = require('fs');
 const os = require('os');
-const Client = require('composer-client');
-const Admin = require('composer-admin');
-const Common = require('composer-common');
+const Client = require('@sp-temp/composer-client');
+const Admin = require('@sp-temp/composer-admin');
+const Common = require('@sp-temp/composer-common');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
 const BusinessNetworkConnection = Client.BusinessNetworkConnection;
 const AdminConnection = Admin.AdminConnection;

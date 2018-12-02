@@ -16,9 +16,9 @@
 
 const Api = require('../lib/api');
 const CompiledScriptBundle = require('../lib/compiledscriptbundle');
-const Factory = require('composer-common').Factory;
-const ModelManager = require('composer-common').ModelManager;
-const ScriptManager = require('composer-common').ScriptManager;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const ScriptManager = require('@sp-temp/composer-common').ScriptManager;
 
 const chai = require('chai');
 chai.should();

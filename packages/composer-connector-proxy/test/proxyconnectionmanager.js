@@ -14,7 +14,7 @@
 
 'use strict';
 
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
 const ProxyConnection = require('../lib/proxyconnection');
 /* const ProxyConnectionManager = */ require('..');
 const serializerr = require('serializerr');

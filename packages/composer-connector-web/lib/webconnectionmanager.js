@@ -14,9 +14,9 @@
 
 'use strict';
 
-const { Certificate, ConnectionManager } = require('composer-common');
+const { Certificate, ConnectionManager } = require('@sp-temp/composer-common');
 const WebConnection = require('./webconnection');
-const WebDataService = require('composer-runtime-web').WebDataService;
+const WebDataService = require('@sp-temp/composer-runtime-web').WebDataService;
 const uuid = require('uuid');
 
 const IDENTITY_COLLECTION_ID = 'identities';

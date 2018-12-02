@@ -14,8 +14,8 @@
 
 'use strict';
 
-const PouchDBDataService = require('composer-runtime-pouchdb').PouchDBDataService;
-const Logger = require('composer-common').Logger;
+const PouchDBDataService = require('@sp-temp/composer-runtime-pouchdb').PouchDBDataService;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const LOG = Logger.getLog('WebDataService');
 

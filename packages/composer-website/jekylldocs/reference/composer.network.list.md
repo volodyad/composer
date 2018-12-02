@@ -76,7 +76,7 @@ Command succeeded
 ## Javascript API Example
 
 ``` javascript
-const NetworkList = require('composer-cli').Network.List;
+const NetworkList = require('@sp-temp/composer-cli').Network.List;
 
 let options = {
   card: 'admin@tutorial-network'

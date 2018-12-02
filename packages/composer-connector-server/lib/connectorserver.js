@@ -13,9 +13,9 @@
  */
 
 'use strict';
-const IdCard = require('composer-common').IdCard;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const Logger = require('composer-common').Logger;
+const IdCard = require('@sp-temp/composer-common').IdCard;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const Logger = require('@sp-temp/composer-common').Logger;
 const realSerializerr = require('serializerr');
 const uuid = require('uuid');
 const version = require('../package.json').version;

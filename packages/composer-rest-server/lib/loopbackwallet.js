@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Wallet = require('composer-common').Wallet;
+const Wallet = require('@sp-temp/composer-common').Wallet;
 
 /**
  * An implementation of the {@link Wallet} class that persists the users

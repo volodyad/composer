@@ -14,7 +14,7 @@
 
 'use strict';
 
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const Export = require('./export');
 const fs = require('fs');
 const path = require('path');

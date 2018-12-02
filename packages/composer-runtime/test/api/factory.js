@@ -15,10 +15,10 @@
 'use strict';
 
 const Factory = require('../../lib/api/factory');
-const realFactory = require('composer-common').Factory;
-const Relationship = require('composer-common').Relationship;
-const Resource = require('composer-common').Resource;
-const Concept = require('composer-common').Concept;
+const realFactory = require('@sp-temp/composer-common').Factory;
+const Relationship = require('@sp-temp/composer-common').Relationship;
+const Resource = require('@sp-temp/composer-common').Resource;
+const Concept = require('@sp-temp/composer-common').Concept;
 
 const chai = require('chai');
 chai.should();

@@ -38,7 +38,7 @@ Please refer to [Connector specific information](../managing/connector-informati
 ## Javascript API Example
 
 ``` javascript
-const NetworkUpgrade = require('composer-cli').Network.Upgrade;
+const NetworkUpgrade = require('@sp-temp/composer-cli').Network.Upgrade;
 
 let options = {
   networkName: 'tutorial-network',

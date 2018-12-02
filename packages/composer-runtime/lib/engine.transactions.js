@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { Logger, Typed } = require('composer-common');
+const { Logger, Typed } = require('@sp-temp/composer-common');
 const util = require('util');
 const LOG = Logger.getLog('EngineTransactions');
 

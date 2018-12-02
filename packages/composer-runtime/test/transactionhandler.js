@@ -15,7 +15,7 @@
 'use strict';
 
 const Api = require('../lib/api');
-const Resource = require('composer-common').Resource;
+const Resource = require('@sp-temp/composer-common').Resource;
 const TransactionHandler = require('../lib/transactionhandler');
 
 const chai = require('chai');

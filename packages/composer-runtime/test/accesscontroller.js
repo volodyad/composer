@@ -16,12 +16,12 @@
 
 const AccessController = require('../lib/accesscontroller');
 const AccessException = require('../lib/accessexception');
-const AclFile = require('composer-common').AclFile;
-const AclManager = require('composer-common').AclManager;
+const AclFile = require('@sp-temp/composer-common').AclFile;
+const AclManager = require('@sp-temp/composer-common').AclManager;
 const CompiledAclBundle = require('../lib/compiledaclbundle');
 const Context = require('../lib/context');
-const Factory = require('composer-common').Factory;
-const ModelManager = require('composer-common').ModelManager;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const Resolver = require('../lib/resolver');
 
 const chai = require('chai');

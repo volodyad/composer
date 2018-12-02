@@ -38,7 +38,7 @@ Command succeeded
 ## Javascript API Example
 
 ```javascript
-const ArchiveList = require('composer-cli').Archive.List;
+const ArchiveList = require('@sp-temp/composer-cli').Archive.List;
 
 let options = {
   archiveFile: 'digitalPropertyNetwork.bna'

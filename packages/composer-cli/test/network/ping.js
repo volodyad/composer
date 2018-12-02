@@ -14,8 +14,8 @@
 
 'use strict';
 
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-admin').BusinessNetworkDefinition;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-admin').BusinessNetworkDefinition;
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const Ping = require('../../lib/cmds/network/pingCommand.js');
 

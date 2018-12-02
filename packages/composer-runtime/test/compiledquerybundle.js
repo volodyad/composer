@@ -16,9 +16,9 @@
 
 const CompiledQueryBundle = require('../lib/compiledquerybundle');
 const DataService = require('../lib/dataservice');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const QueryCompiler = require('../lib/querycompiler');
-const QueryManager = require('composer-common').QueryManager;
+const QueryManager = require('@sp-temp/composer-common').QueryManager;
 
 require('chai').should();
 const sinon = require('sinon');

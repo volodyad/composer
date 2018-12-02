@@ -14,8 +14,8 @@
 
 'use strict';
 
-const Logger = require('composer-common').Logger;
-const Relationship = require('composer-common').Relationship;
+const Logger = require('@sp-temp/composer-common').Logger;
+const Relationship = require('@sp-temp/composer-common').Relationship;
 
 const LOG = Logger.getLog('InvalidRelationship');
 

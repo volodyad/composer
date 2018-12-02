@@ -40,7 +40,7 @@ Command succeeded
 ## Javascript API Example
 
 ``` javascript
-const NetworkPing = require('composer-cli').Network.Ping;
+const NetworkPing = require('@sp-temp/composer-cli').Network.Ping;
 
 let options = {
   card: 'admin@tutorial-network'

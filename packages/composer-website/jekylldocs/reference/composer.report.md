@@ -36,7 +36,7 @@ Once installed, running `composer-report` will create a report archive in the cu
 ## Javascript API Example
 
 ``` javascript
-const Report = require('composer-cli').Report.Report;
+const Report = require('@sp-temp/composer-cli').Report.Report;
 
 Report.handler();
 ```

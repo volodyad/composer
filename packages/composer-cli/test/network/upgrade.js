@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const InstallCmd = require('../../lib/cmds/network/upgradeCommand.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 

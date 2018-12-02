@@ -14,10 +14,10 @@
 
 'use strict';
 
-const Context = require('composer-runtime').Context;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const Engine = require('composer-runtime').Engine;
-const Serializer = require('composer-common').Serializer;
+const Context = require('@sp-temp/composer-runtime').Context;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const Engine = require('@sp-temp/composer-runtime').Engine;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const WebContainer = require('..').WebContainer;
 const WebContext = require('..').WebContext;
 const WebDataService = require('..').WebDataService;

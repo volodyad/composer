@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Client = require('composer-client');
+const Client = require('@sp-temp/composer-client');
 const BusinessNetworkConnection = Client.BusinessNetworkConnection;
 
 const Revoke = require('../../lib/cmds/identity/revokeCommand.js');

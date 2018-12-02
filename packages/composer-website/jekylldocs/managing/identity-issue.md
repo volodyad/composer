@@ -38,7 +38,7 @@ The example assumes that an instance, `net.biz.digitalPropertyNetwork#mae@biznet
   * JavaScript API
 
   ```javascript
-  const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+  const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
   async function identityIssue() {
       let businessNetworkConnection = new BusinessNetworkConnection();
@@ -68,7 +68,7 @@ The example assumes that an instance, `net.biz.digitalPropertyNetwork#mae@biznet
   * JavaScript API
 
   ```javascript
-  const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+  const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
   async function testConnection() {
       let businessNetworkConnection = new BusinessNetworkConnection();

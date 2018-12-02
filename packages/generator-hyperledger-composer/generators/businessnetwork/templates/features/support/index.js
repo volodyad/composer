@@ -14,7 +14,7 @@
 
 'use strict';
 
-const composerSteps = require('composer-cucumber-steps');
+const composerSteps = require('@sp-temp/composer-cucumber-steps');
 const cucumber = require('cucumber');
 
 module.exports = function () {

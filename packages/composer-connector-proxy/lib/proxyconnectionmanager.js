@@ -14,11 +14,11 @@
 
 'use strict';
 
-const ConnectionManager = require('composer-common').ConnectionManager;
+const ConnectionManager = require('@sp-temp/composer-common').ConnectionManager;
 const ProxyConnection = require('./proxyconnection');
 const ProxyUtil = require('./proxyutil');
 const socketIOClient = require('socket.io-client');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const uuid = require('uuid');
 
 const LOG = Logger.getLog('ProxyConnectionManager');

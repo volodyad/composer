@@ -15,8 +15,8 @@
 'use strict';
 
 const ChaincodeStore = require('../lib/chaincodestore');
-const { PouchDBDataService } = require('composer-runtime-pouchdb');
-const { BusinessNetworkDefinition } = require('composer-common');
+const { PouchDBDataService } = require('@sp-temp/composer-runtime-pouchdb');
+const { BusinessNetworkDefinition } = require('@sp-temp/composer-common');
 
 // Install the PouchDB plugins. The order of the adapters is important!
 PouchDBDataService.registerPouchDBPlugin(require('pouchdb-adapter-memory'));

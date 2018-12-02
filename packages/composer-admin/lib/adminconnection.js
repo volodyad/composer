@@ -14,14 +14,14 @@
 
 'use strict';
 
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
-const NetworkCardStoreManager = require('composer-common').NetworkCardStoreManager;
-const Factory = require('composer-common').Factory;
-const Logger = require('composer-common').Logger;
-const ModelManager = require('composer-common').ModelManager;
-const Util = require('composer-common').Util;
-const IdCard = require('composer-common').IdCard;
-const Serializer = require('composer-common').Serializer;
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
+const NetworkCardStoreManager = require('@sp-temp/composer-common').NetworkCardStoreManager;
+const Factory = require('@sp-temp/composer-common').Factory;
+const Logger = require('@sp-temp/composer-common').Logger;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const Util = require('@sp-temp/composer-common').Util;
+const IdCard = require('@sp-temp/composer-common').IdCard;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 
 const LOG = Logger.getLog('AdminConnection');
 

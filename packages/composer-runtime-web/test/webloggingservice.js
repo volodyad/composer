@@ -14,7 +14,7 @@
 
 'use strict';
 
-const LoggingService = require('composer-runtime').LoggingService;
+const LoggingService = require('@sp-temp/composer-runtime').LoggingService;
 const WebLoggingService = require('..').WebLoggingService;
 
 require('chai').should();

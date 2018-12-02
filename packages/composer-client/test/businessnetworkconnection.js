@@ -14,25 +14,25 @@
 
 'use strict';
 
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
 const AssetRegistry = require('../lib/assetregistry');
 const BusinessNetworkConnection = require('..').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const CardStore = require('composer-common').BusinessNetworkCardStore;
-const Connection = require('composer-common').Connection;
-const Factory = require('composer-common').Factory;
-const IdCard = require('composer-common').IdCard;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const CardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const Connection = require('@sp-temp/composer-common').Connection;
+const Factory = require('@sp-temp/composer-common').Factory;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const IdentityRegistry = require('../lib/identityregistry');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const ParticipantRegistry = require('../lib/participantregistry');
 const Query = require('../lib/query');
-const Resource = require('composer-common').Resource;
-const SecurityContext = require('composer-common').SecurityContext;
-const Serializer = require('composer-common').Serializer;
+const Resource = require('@sp-temp/composer-common').Resource;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const TransactionRegistry = require('../lib/transactionregistry');
 const Registry = require('../lib/registry');
 const Historian = require('../lib/historian');
-const Util = require('composer-common').Util;
+const Util = require('@sp-temp/composer-common').Util;
 const uuid = require('uuid');
 const version = require('../package.json').version;
 

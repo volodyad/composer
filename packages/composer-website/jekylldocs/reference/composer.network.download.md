@@ -38,7 +38,7 @@ The business network card to use to download the network.
 ## Javascript API Example
 
 ``` javascript
-const NetworkDownload = require('composer-cli').Network.Download;
+const NetworkDownload = require('@sp-temp/composer-cli').Network.Download;
 
 let options = {
   archiveFile: 'businessnetworkv1.1.4',

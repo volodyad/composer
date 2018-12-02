@@ -16,10 +16,10 @@
 
 const Api = require('../lib/api');
 const Context = require('../lib/context');
-const Factory = require('composer-common').Factory;
+const Factory = require('@sp-temp/composer-common').Factory;
 const IdentityManager = require('../lib/identitymanager');
 const IdentityService = require('../lib/identityservice');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const Registry = require('../lib/registry');
 const RegistryManager = require('../lib/registrymanager');
 

@@ -15,13 +15,13 @@
 'use strict';
 
 const AdminConnection = require('..').AdminConnection;
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
-const Connection = require('composer-common').Connection;
-const ConnectionManager = require('composer-common').ConnectionManager;
-const IdCard = require('composer-common').IdCard;
-const NetworkCardStoreManager = require('composer-common').NetworkCardStoreManager;
-const SecurityContext = require('composer-common').SecurityContext;
-const Util = require('composer-common').Util;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const Connection = require('@sp-temp/composer-common').Connection;
+const ConnectionManager = require('@sp-temp/composer-common').ConnectionManager;
+const IdCard = require('@sp-temp/composer-common').IdCard;
+const NetworkCardStoreManager = require('@sp-temp/composer-common').NetworkCardStoreManager;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
+const Util = require('@sp-temp/composer-common').Util;
 
 
 const version = require('../package.json').version;

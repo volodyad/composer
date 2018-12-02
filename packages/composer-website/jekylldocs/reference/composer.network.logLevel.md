@@ -27,7 +27,7 @@ Options:
 ## Javascript API Example
 
 ``` javascript
-const NetworkLogLevel = require('composer-cli').Network.LogLevel;
+const NetworkLogLevel = require('@sp-temp/composer-cli').Network.LogLevel;
 
 let options = {
   card: 'admin@tutorial-network'

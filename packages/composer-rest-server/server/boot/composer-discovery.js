@@ -15,10 +15,10 @@
 'use strict';
 
 const connector = require('loopback-connector-composer');
-const IdCard = require('composer-common').IdCard;
-const LoopbackVisitor = require('composer-common').LoopbackVisitor;
-const ModelUtil = require('composer-common').ModelUtil;
-const QueryAnalyzer = require('composer-common').QueryAnalyzer;
+const IdCard = require('@sp-temp/composer-common').IdCard;
+const LoopbackVisitor = require('@sp-temp/composer-common').LoopbackVisitor;
+const ModelUtil = require('@sp-temp/composer-common').ModelUtil;
+const QueryAnalyzer = require('@sp-temp/composer-common').QueryAnalyzer;
 
 /**
  * Register a composer named query method at a GET method on the REST API. The

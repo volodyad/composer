@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Client = require('composer-admin');
+const Client = require('@sp-temp/composer-admin');
 
 const Request = require('../../lib/cmds/identity/requestCommand.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');

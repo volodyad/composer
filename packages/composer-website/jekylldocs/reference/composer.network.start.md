@@ -45,7 +45,7 @@ Please refer to [Connector specific information](../managing/connector-informati
 ## Javascript API Example
 
 ``` javascript
-const NetworkStart = require('composer-cli').Network.Start;
+const NetworkStart = require('@sp-temp/composer-cli').Network.Start;
 
 let options = {
   networkName: 'tutorial-network',

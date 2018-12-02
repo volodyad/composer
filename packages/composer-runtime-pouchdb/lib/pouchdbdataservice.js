@@ -14,8 +14,8 @@
 
 'use strict';
 
-const DataService = require('composer-runtime').DataService;
-const Logger = require('composer-common').Logger;
+const DataService = require('@sp-temp/composer-runtime').DataService;
+const Logger = require('@sp-temp/composer-common').Logger;
 const pouchCollate = require('pouchdb-collate');
 const PouchDB = require('pouchdb-core');
 const PouchDBDataCollection = require('./pouchdbdatacollection');

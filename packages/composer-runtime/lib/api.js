@@ -16,7 +16,7 @@
 
 const AssetRegistry = require('./api/assetregistry');
 const Factory = require('./api/factory');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const ParticipantRegistry = require('./api/participantregistry');
 const Query = require('./api/query');
 const Registry = require('./registry');

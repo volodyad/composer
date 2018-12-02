@@ -14,7 +14,7 @@
 
 'use strict';
 
-const IdentityService = require('composer-runtime').IdentityService;
+const IdentityService = require('@sp-temp/composer-runtime').IdentityService;
 const EmbeddedIdentityService = require('..').EmbeddedIdentityService;
 
 const should = require('chai').should();

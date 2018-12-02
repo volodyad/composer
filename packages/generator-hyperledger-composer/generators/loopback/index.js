@@ -14,10 +14,10 @@
 
 'use strict';
 
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const fs = require('fs');
-const LoopbackVisitor = require('composer-common').LoopbackVisitor;
+const LoopbackVisitor = require('@sp-temp/composer-common').LoopbackVisitor;
 const optionOrPrompt = require('yeoman-option-or-prompt');
 const Util = require('../util');
 const version = require('../../package.json').version;

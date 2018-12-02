@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Container = require('composer-runtime').Container;
+const Container = require('@sp-temp/composer-runtime').Container;
 const version = require('../package.json').version;
 const WebLoggingService = require('./webloggingservice');
 

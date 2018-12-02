@@ -33,7 +33,7 @@ Otherwise the identity registry will be empty and you will not see any results.
   * JavaScript API
 
   ```javascript
-  const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+  const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
   async function identityList() {
       let businessNetworkConnection = new BusinessNetworkConnection();

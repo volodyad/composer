@@ -14,13 +14,13 @@
 
 'use strict';
 
-const Factory = require('composer-common').Factory;
-const ModelManager = require('composer-common').ModelManager;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const TransactionRegistry = require('../lib/transactionregistry');
 const Registry = require('../lib/registry');
-const SecurityContext = require('composer-common').SecurityContext;
-const Serializer = require('composer-common').Serializer;
-const Util = require('composer-common').Util;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
+const Serializer = require('@sp-temp/composer-common').Serializer;
+const Util = require('@sp-temp/composer-common').Util;
 
 const chai = require('chai');
 chai.should();

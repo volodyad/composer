@@ -28,7 +28,7 @@ Options:
 ## Javascript API Example
 
 ```javascript
-const CardImport = require('composer-cli').Card.Import;
+const CardImport = require('@sp-temp/composer-cli').Card.Import;
 
 let options = {
   file: 'admin.card',

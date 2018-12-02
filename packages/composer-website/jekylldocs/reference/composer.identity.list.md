@@ -35,7 +35,7 @@ Example: `admin@tutorial-network`
 ## Javascript API Example
 
 ``` javascript
-const IdentityList = require('composer-cli').Identity.List;
+const IdentityList = require('@sp-temp/composer-cli').Identity.List;
 
 let options = {
   card: 'admin@tutorial-network'

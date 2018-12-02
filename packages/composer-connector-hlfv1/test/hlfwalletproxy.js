@@ -15,7 +15,7 @@
 'use strict';
 
 const HLFWalletProxy = require('../lib/hlfwalletproxy');
-const Wallet = require('composer-common').Wallet;
+const Wallet = require('@sp-temp/composer-common').Wallet;
 
 const chai = require('chai');
 const should = chai.should();

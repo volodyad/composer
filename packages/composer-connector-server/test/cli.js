@@ -13,9 +13,9 @@
  */
 
 'use strict';
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
-const Logger = require('composer-common').Logger;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const proxyquire = require('proxyquire');
 const sinon = require('sinon');

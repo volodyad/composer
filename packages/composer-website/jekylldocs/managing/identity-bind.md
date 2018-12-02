@@ -49,7 +49,7 @@ of that participant has been created and placed into a participant registry.
   * JavaScript API
 
   ```javascript
-  const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+  const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
   async function bind() {
       let businessNetworkConnection = new BusinessNetworkConnection();
@@ -88,7 +88,7 @@ of that participant has been created and placed into a participant registry.
   * JavaScript API
 
   ```javascript
-  const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+  const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 
   async function testConnection() {
       let businessNetworkConnection = new BusinessNetworkConnection();

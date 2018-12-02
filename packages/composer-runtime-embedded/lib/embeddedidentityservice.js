@@ -14,7 +14,7 @@
 
 'use strict';
 
-const IdentityService = require('composer-runtime').IdentityService;
+const IdentityService = require('@sp-temp/composer-runtime').IdentityService;
 
 /**
  * Base class representing the identity service provided by a {@link Container}.

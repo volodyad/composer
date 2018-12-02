@@ -15,7 +15,7 @@
 'use strict';
 
 const cmdUtil = require('../../utils/cmdutils');
-const { Typed } = require('composer-common');
+const { Typed } = require('@sp-temp/composer-common');
 const Pretty = require('prettyjson');
 
 /**

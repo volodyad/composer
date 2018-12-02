@@ -14,12 +14,12 @@
 
 'use strict';
 
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const FileWriter = require('composer-common').FileWriter;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const FileWriter = require('@sp-temp/composer-common').FileWriter;
 const fs = require('fs');
 const shell = require('shelljs');
-const TypescriptVisitor = require('composer-common').TypescriptVisitor;
+const TypescriptVisitor = require('@sp-temp/composer-common').TypescriptVisitor;
 const Util = require('./../util');
 const version = require('../../package.json').version;
 const yeoman = require('yeoman-generator');

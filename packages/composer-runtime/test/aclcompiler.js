@@ -15,12 +15,12 @@
 'use strict';
 
 const AclCompiler = require('../lib/aclcompiler');
-const AclManager = require('composer-common').AclManager;
+const AclManager = require('@sp-temp/composer-common').AclManager;
 const assert = require('assert');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const path = require('path');
-const Resource = require('composer-common').Resource;
-const ScriptManager = require('composer-common').ScriptManager;
+const Resource = require('@sp-temp/composer-common').Resource;
+const ScriptManager = require('@sp-temp/composer-common').ScriptManager;
 const SourceMapConsumer = require('source-map').SourceMapConsumer;
 const SourceNode = require('source-map').SourceNode;
 

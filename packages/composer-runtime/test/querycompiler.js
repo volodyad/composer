@@ -14,10 +14,10 @@
 
 'use strict';
 
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const QueryCompiler = require('../lib/querycompiler');
-const QueryFile = require('composer-common').QueryFile;
-const QueryManager = require('composer-common').QueryManager;
+const QueryFile = require('@sp-temp/composer-common').QueryFile;
+const QueryManager = require('@sp-temp/composer-common').QueryManager;
 
 const chai = require('chai');
 chai.should();

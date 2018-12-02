@@ -15,11 +15,11 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-admin').BusinessNetworkDefinition;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-admin').BusinessNetworkDefinition;
 const fs = require('fs');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const path = require('path');
 const TestUtil = require('./testutil');
 const uuid = require('uuid');

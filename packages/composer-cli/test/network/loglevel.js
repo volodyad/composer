@@ -14,7 +14,7 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 
 const LogLevel = require('../../lib/cmds/network/loglevelCommand.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');

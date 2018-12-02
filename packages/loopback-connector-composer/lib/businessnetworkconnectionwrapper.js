@@ -14,7 +14,7 @@
 
 'use strict';
 
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 const debug = require('debug')('loopback:connector:composer');
 
 /**

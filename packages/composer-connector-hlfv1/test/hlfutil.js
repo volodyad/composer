@@ -17,7 +17,7 @@
 const HLFConnection = require('../lib/hlfconnection');
 const HLFSecurityContext = require('../lib/hlfsecuritycontext');
 const HLFUtil = require('../lib/hlfutil');
-const SecurityException = require('composer-common').SecurityException;
+const SecurityException = require('@sp-temp/composer-common').SecurityException;
 const ChannelEventHub = require('fabric-client/lib/ChannelEventHub');
 
 

@@ -15,21 +15,21 @@
 'use strict';
 
 const AssetRegistry = require('./assetregistry');
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
 const EventEmitter = require('events');
 const Historian = require('./historian');
 const IdentityRegistry = require('./identityregistry');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const ParticipantRegistry = require('./participantregistry');
 const Query = require('./query');
-const Relationship = require('composer-common').Relationship;
-const Resource = require('composer-common').Resource;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
+const Relationship = require('@sp-temp/composer-common').Relationship;
+const Resource = require('@sp-temp/composer-common').Resource;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
 const TransactionRegistry = require('./transactionregistry');
-const Util = require('composer-common').Util;
+const Util = require('@sp-temp/composer-common').Util;
 const Registry = require('./registry');
-const NetworkCardStoreManager = require('composer-common').NetworkCardStoreManager;
+const NetworkCardStoreManager = require('@sp-temp/composer-common').NetworkCardStoreManager;
 const LOG = Logger.getLog('BusinessNetworkConnection');
 
 /**

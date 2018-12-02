@@ -62,7 +62,7 @@ Command completed successfully.
 ## Javascript API Example
 
 ```javascript
-const ArchiveCreate = require('composer-cli').Archive.Create;
+const ArchiveCreate = require('@sp-temp/composer-cli').Archive.Create;
 
 let options = {
   sourceType: 'dir',

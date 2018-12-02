@@ -14,10 +14,10 @@
 
 'use strict';
 
-const AclManager = require('composer-common').AclManager;
+const AclManager = require('@sp-temp/composer-common').AclManager;
 const CompiledAclBundle = require('../lib/compiledaclbundle');
-const ModelManager = require('composer-common').ModelManager;
-const Resource = require('composer-common').Resource;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const Resource = require('@sp-temp/composer-common').Resource;
 
 require('chai').should();
 const sinon = require('sinon');

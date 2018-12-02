@@ -21,10 +21,10 @@ const Context = require('../lib/context');
 const DataService = require('../lib/dataservice');
 const Engine = require('../lib/engine');
 const LoggingService = require('../lib/loggingservice');
-const AclManager = require('composer-common').AclManager;
-const AclFile = require('composer-common').AclFile;
-const Resource = require('composer-common').Resource;
-const Serializer = require('composer-common').Serializer;
+const AclManager = require('@sp-temp/composer-common').AclManager;
+const AclFile = require('@sp-temp/composer-common').AclFile;
+const Resource = require('@sp-temp/composer-common').Resource;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 
 const chai = require('chai');
 chai.should();

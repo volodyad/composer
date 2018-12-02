@@ -14,11 +14,11 @@
 
 'use strict';
 
-const Client = require('composer-client');
+const Client = require('@sp-temp/composer-client');
 const BusinessNetworkConnection = Client.BusinessNetworkConnection;
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const AdminConnection = Admin.AdminConnection;
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const Issue = require('../../lib/cmds/identity/issueCommand.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const Export = require('../../lib/cmds/card/lib/export.js');

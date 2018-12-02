@@ -18,7 +18,7 @@ const api = require('fabric-client/lib/api');
 const idModule = require('fabric-client/lib/msp/identity');
 const Channel = require('fabric-client/lib/Channel');
 const Client = require('fabric-client');
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
 const FabricCAClientImpl = require('fabric-ca-client');
 const HLFConnection = require('../lib/hlfconnection');
 const HLFConnectionManager = require('..');
@@ -27,7 +27,7 @@ const KeyValueStore = api.KeyValueStore;
 const CryptoSuite = api.CryptoSuite;
 const path = require('path');
 const User = require('fabric-client/lib/User');
-const Wallet = require('composer-common').Wallet;
+const Wallet = require('@sp-temp/composer-common').Wallet;
 const fsextra = require('fs-extra');
 
 const chai = require('chai');
@@ -37,7 +37,7 @@ const sinon = require('sinon');
 
 const fs = require('fs');
 
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('HLFConnectionManager');
 
 describe('HLFConnectionManager', () => {

@@ -14,7 +14,7 @@
 
 'use strict';
 
-const SecurityContext = require('composer-common').SecurityContext;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
 
 /**
  * A security context for the web connection.

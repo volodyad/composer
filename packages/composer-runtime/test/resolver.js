@@ -14,10 +14,10 @@
 
 'use strict';
 
-const Factory = require('composer-common').Factory;
-const Introspector = require('composer-common').Introspector;
+const Factory = require('@sp-temp/composer-common').Factory;
+const Introspector = require('@sp-temp/composer-common').Introspector;
 const InvalidRelationship = require('../lib/invalidrelationship');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const Registry = require('../lib/registry');
 const RegistryManager = require('../lib/registrymanager');
 const Resolver = require('../lib/resolver');

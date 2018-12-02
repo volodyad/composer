@@ -13,7 +13,7 @@
  */
 
 'use strict';
-const Serializer = require('composer-common').Serializer;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const AccessController = require('../lib/accesscontroller');
 const Container = require('../lib/container');
 const Context = require('../lib/context');
@@ -22,7 +22,7 @@ const IdentityManager = require('../lib/identitymanager');
 const LoggingService = require('../lib/loggingservice');
 const DataCollection = require('../lib/datacollection');
 const DataService = require('../lib/dataservice');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const chai = require('chai');
 chai.should();
 chai.use(require('chai-as-promised'));

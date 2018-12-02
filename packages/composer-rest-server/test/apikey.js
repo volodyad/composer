@@ -14,10 +14,10 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const IdCard = require('composer-common').IdCard;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 require('loopback-component-passport');
 const server = require('../server/server');
 const chai = require('chai');
@@ -33,7 +33,7 @@ describe('Access with APIKEY unit tests', () => {
     let adminConnection;
 
     before(() => {
-        const cardStore = require('composer-common').NetworkCardStoreManager.getCardStore({type: 'composer-wallet-inmemory'});
+        const cardStore = require('@sp-temp/composer-common').NetworkCardStoreManager.getCardStore({type: 'composer-wallet-inmemory'});
         adminConnection = new AdminConnection({cardStore});
         let metadata = {
             version: 1,

@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { BusinessNetworkDefinition } = require('composer-common');
+const { BusinessNetworkDefinition } = require('@sp-temp/composer-common');
 const ProxyConnectionManager = require('../lib/proxyconnectionmanager');
 const ProxyConnection = require('../lib/proxyconnection');
 const ProxySecurityContext = require('../lib/proxysecuritycontext');

@@ -32,7 +32,7 @@ const argv = require('yargs')
     .argv;
 
 const isDocker = require('is-docker');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const opener = require('opener');
 
 const LOG = Logger.getLog('Composer');

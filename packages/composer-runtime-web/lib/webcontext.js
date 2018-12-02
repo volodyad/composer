@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Context = require('composer-runtime').Context;
+const Context = require('@sp-temp/composer-runtime').Context;
 const WebDataService = require('./webdataservice');
 const WebIdentityService = require('./webidentityservice');
 const WebHTTPService = require('./webhttpservice');

@@ -27,14 +27,14 @@ const argv = require('yargs')
     })
     .argv;
 
-const ConnectionProfileManager = require('composer-common').ConnectionProfileManager;
-const NetworkCardStoreManager = require('composer-common').NetworkCardStoreManager;
+const ConnectionProfileManager = require('@sp-temp/composer-common').ConnectionProfileManager;
+const NetworkCardStoreManager = require('@sp-temp/composer-common').NetworkCardStoreManager;
 const ConnectorServer = require('.');
 
 const io = require('socket.io')(argv.port);
 
 // setup the logger for CLIs, Console output only with 'composer[info]:*' setting
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 Logger.setCLIDefaults();
 const LOG = Logger.getLog('ConnectorServer');
 

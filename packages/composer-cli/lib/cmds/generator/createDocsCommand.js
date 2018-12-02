@@ -14,7 +14,7 @@
 
 'use strict';
 
-const docs = require('composer-documentation');
+const docs = require('@sp-temp/composer-documentation');
 
 module.exports.command = 'docs [options]';
 module.exports.describe = 'Create HTML Documentation from a Business Network Archive';

@@ -14,7 +14,7 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const DeleteCmd = require('../../lib/cmds/card/deleteCommand.js');
 

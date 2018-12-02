@@ -14,7 +14,7 @@
 
 'use strict';
 
-const composerReport = require('composer-report');
+const composerReport = require('@sp-temp/composer-report');
 
 const Report = require('../../lib/cmds/report.js');
 const ReportCmd = require('../../lib/cmds/report/reportCommand.js');

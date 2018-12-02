@@ -15,9 +15,9 @@
 'use strict';
 
 const AccessException = require('../lib/accessexception');
-const BaseException = require('composer-common').BaseException;
-const Factory = require('composer-common').Factory;
-const ModelManager = require('composer-common').ModelManager;
+const BaseException = require('@sp-temp/composer-common').BaseException;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 
 require('chai').should();
 

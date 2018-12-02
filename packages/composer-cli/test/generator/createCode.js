@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
 const fs = require('fs');
 const Create = require('../../lib/cmds/generator/createCodeCommand.js');
@@ -22,7 +22,7 @@ const CreateCode = require('../../lib/cmds/generator/lib/createCode.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 
 
-const CodeGen = require('composer-common').CodeGen;
+const CodeGen = require('@sp-temp/composer-common').CodeGen;
 const GoLangVisitor = CodeGen.GoLangVisitor;
 const JSONSchemaVisitor = CodeGen.JSONSchemaVisitor;
 const PlantUMLVisitor = CodeGen.PlantUMLVisitor;
@@ -82,7 +82,7 @@ describe('composer generator create unit tests', function () {
         mockJava.visit.returns('visited');
         mockXmlSchema.visit.returns('visited');
 
-        mockFileWriter = sinon.createStubInstance(require('composer-common').CodeGen.FileWriter);
+        mockFileWriter = sinon.createStubInstance(require('@sp-temp/composer-common').CodeGen.FileWriter);
         CreateCode.FileWriter = mockFileWriter;
 
         // sandbox.stuf(FileWriter,mockFileWriter);

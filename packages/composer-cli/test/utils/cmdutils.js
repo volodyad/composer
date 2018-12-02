@@ -14,9 +14,9 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const IdCard = require('composer-common').IdCard;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const prompt = require('prompt');
 

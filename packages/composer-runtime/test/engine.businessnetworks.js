@@ -23,7 +23,7 @@ const Engine = require('../lib/engine');
 const LoggingService = require('../lib/loggingservice');
 const RegistryManager = require('../lib/registrymanager');
 const version = require('../package.json').version;
-const Serializer = require('composer-common').Serializer;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const AccessController = require('../lib/accesscontroller');
 
 const chai = require('chai');

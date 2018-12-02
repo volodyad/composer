@@ -14,9 +14,9 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const { BusinessNetworkDefinition, CertificateUtil, IdCard } = require('composer-common');
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const { BusinessNetworkDefinition, CertificateUtil, IdCard } = require('@sp-temp/composer-common');
 require('loopback-component-passport');
 const server = require('../server/server');
 const version = require('../package.json').version;
@@ -104,7 +104,7 @@ describe('System REST API unit tests', () => {
     };
 
     before(() => {
-        const cardStore = require('composer-common').NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory' } );
+        const cardStore = require('@sp-temp/composer-common').NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory' } );
         adminConnection = new AdminConnection({ cardStore });
         let metadata = { version:1, userName: 'admin', enrollmentSecret: 'adminpw', roles: ['PeerAdmin', 'ChannelAdmin'] };
         const deployCardName = 'deployer-card';

@@ -14,13 +14,13 @@
 
 'use strict';
 
-const Client = require('composer-client');
-const Admin = require('composer-admin');
-const Common = require('composer-common');
+const Client = require('@sp-temp/composer-client');
+const Admin = require('@sp-temp/composer-admin');
+const Common = require('@sp-temp/composer-common');
 const BusinessNetworkConnection = Client.BusinessNetworkConnection;
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
 const Serializer = Common.Serializer;
-const ParticipantRegistry = require('composer-client/lib/participantregistry');
+const ParticipantRegistry = require('@sp-temp/composer-client/lib/participantregistry');
 const Resource = Common.Resource;
 
 const Add = require('../../lib/cmds/participant/addCommand.js');

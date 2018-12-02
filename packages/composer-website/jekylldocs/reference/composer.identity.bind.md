@@ -48,7 +48,7 @@ Example: `resource:net.biz.digitalPropertyNetwork.Person#lenny@biznet.org`
 ## Javascript API Example
 
 ```javascript
-const IdentityBind = require('composer-cli').Identity.Bind;
+const IdentityBind = require('@sp-temp/composer-cli').Identity.Bind;
 
 let options = {
   card: 'admin@sample-network',

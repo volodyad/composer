@@ -14,9 +14,9 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 const fs = require('fs');
 const DownloadCmd = require('../../lib/cmds/network/downloadCommand.js');
 const Download = require('../../lib/cmds/network/lib/download.js');

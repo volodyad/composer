@@ -14,10 +14,10 @@
 
 'use strict';
 
-const { Certificate, CertificateUtil, Connection, Util } = require('composer-common');
-const { EmbeddedContainer, EmbeddedContext, EmbeddedDataService } = require('composer-runtime-embedded');
+const { Certificate, CertificateUtil, Connection, Util } = require('@sp-temp/composer-common');
+const { EmbeddedContainer, EmbeddedContext, EmbeddedDataService } = require('@sp-temp/composer-runtime-embedded');
 const EmbeddedSecurityContext = require('./embeddedsecuritycontext');
-const { Engine, InstalledBusinessNetwork } = require('composer-runtime');
+const { Engine, InstalledBusinessNetwork } = require('@sp-temp/composer-runtime');
 const uuid = require('uuid');
 
 // A map of installed chaincodes keyed by name and version

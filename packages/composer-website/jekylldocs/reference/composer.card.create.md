@@ -41,7 +41,7 @@ In order to perform an installation of a business network, a card with the `Peer
 ## Javascript API Example
 
 ```javascript
-const CardCreate = require('composer-cli').Card.Create;
+const CardCreate = require('@sp-temp/composer-cli').Card.Create;
 
 let options = {
   file: 'conga.card',

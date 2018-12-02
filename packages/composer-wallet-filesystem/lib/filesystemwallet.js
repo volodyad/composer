@@ -14,12 +14,12 @@
 
 'use strict';
 
-const Wallet = require('composer-common').Wallet;
+const Wallet = require('@sp-temp/composer-common').Wallet;
 const nodefs = require('fs');
 const path = require('path');
-const composerUtil = require('composer-common').Util;
+const composerUtil = require('@sp-temp/composer-common').Util;
 const mkdirp = require('mkdirp');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const rimraf = require('rimraf');
 /**
  * String based key-val store,  A 'client-data' directory is created under the storePath option (or ~/.composer)

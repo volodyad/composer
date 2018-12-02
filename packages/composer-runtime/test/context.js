@@ -16,9 +16,9 @@
 
 const AclCompiler = require('../lib/aclcompiler');
 const AccessController = require('../lib/accesscontroller');
-const AclManager = require('composer-common').AclManager;
+const AclManager = require('@sp-temp/composer-common').AclManager;
 const Api = require('../lib/api');
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const CompiledAclBundle = require('../lib/compiledaclbundle');
 const CompiledQueryBundle = require('../lib/compiledquerybundle');
 const CompiledScriptBundle = require('../lib/compiledscriptbundle');
@@ -28,19 +28,19 @@ const DataCollection = require('../lib/datacollection');
 const DataService = require('../lib/dataservice');
 const Engine = require('../lib/engine');
 const EventService = require('../lib/eventservice');
-const Factory = require('composer-common').Factory;
+const Factory = require('@sp-temp/composer-common').Factory;
 const HTTPService = require('../lib/httpservice');
 const IdentityManager = require('../lib/identitymanager');
 const IdentityService = require('../lib/identityservice');
 const InstalledBusinessNetwork = require('../lib/installedbusinessnetwork');
-const Introspector = require('composer-common').Introspector;
+const Introspector = require('@sp-temp/composer-common').Introspector;
 const QueryCompiler = require('../lib/querycompiler');
 const RegistryManager = require('../lib/registrymanager');
 const ResourceManager = require('../lib/resourcemanager');
 const NetworkManager = require('../lib/networkmanager');
 const Resolver = require('../lib/resolver');
-const Resource = require('composer-common').Resource;
-const Serializer = require('composer-common').Serializer;
+const Resource = require('@sp-temp/composer-common').Resource;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const TransactionLogger = require('../lib/transactionlogger');
 const LoggingService = require('../lib/loggingservice');
 

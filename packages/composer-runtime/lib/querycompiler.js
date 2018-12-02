@@ -14,20 +14,20 @@
 
 'use strict';
 
-const AssetDeclaration = require('composer-common').AssetDeclaration;
+const AssetDeclaration = require('@sp-temp/composer-common').AssetDeclaration;
 const CompiledQueryBundle = require('./compiledquerybundle');
 const createHash = require('sha.js');
-const Limit = require('composer-common').Limit;
-const Logger = require('composer-common').Logger;
-const OrderBy = require('composer-common').OrderBy;
-const ParticipantDeclaration = require('composer-common').ParticipantDeclaration;
-const Query = require('composer-common').Query;
-const QueryFile = require('composer-common').QueryFile;
-const QueryManager = require('composer-common').QueryManager;
-const Select = require('composer-common').Select;
-const Skip = require('composer-common').Skip;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
-const Where = require('composer-common').Where;
+const Limit = require('@sp-temp/composer-common').Limit;
+const Logger = require('@sp-temp/composer-common').Logger;
+const OrderBy = require('@sp-temp/composer-common').OrderBy;
+const ParticipantDeclaration = require('@sp-temp/composer-common').ParticipantDeclaration;
+const Query = require('@sp-temp/composer-common').Query;
+const QueryFile = require('@sp-temp/composer-common').QueryFile;
+const QueryManager = require('@sp-temp/composer-common').QueryManager;
+const Select = require('@sp-temp/composer-common').Select;
+const Skip = require('@sp-temp/composer-common').Skip;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
+const Where = require('@sp-temp/composer-common').Where;
 
 const LOG = Logger.getLog('QueryCompiler');
 

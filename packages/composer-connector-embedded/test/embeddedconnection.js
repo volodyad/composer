@@ -14,9 +14,9 @@
 
 'use strict';
 
-const { BusinessNetworkDefinition, Certificate, Connection, ConnectionManager } = require('composer-common');
-const { Context, DataCollection, DataService, Engine, LoggingService, InstalledBusinessNetwork } = require('composer-runtime');
-const EmbeddedContainer = require('composer-runtime-embedded').EmbeddedContainer;
+const { BusinessNetworkDefinition, Certificate, Connection, ConnectionManager } = require('@sp-temp/composer-common');
+const { Context, DataCollection, DataService, Engine, LoggingService, InstalledBusinessNetwork } = require('@sp-temp/composer-runtime');
+const EmbeddedContainer = require('@sp-temp/composer-runtime-embedded').EmbeddedContainer;
 const EmbeddedConnection = require('../lib/embeddedconnection');
 const EmbeddedSecurityContext = require('../lib/embeddedsecuritycontext');
 const uuid = require('uuid');

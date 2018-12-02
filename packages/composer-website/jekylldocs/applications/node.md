@@ -22,7 +22,7 @@ If you're not familiar with Promise based development it's worth reviewing some 
 ## Modules required
 
 ```javascript
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
 ```
 
 For a {{site.data.conrefs.composer_full}} client application this is the only npm module required.

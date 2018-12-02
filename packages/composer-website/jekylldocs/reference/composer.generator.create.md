@@ -56,7 +56,7 @@ composer generator create --archiveFile digitalPropertyNetwork.bna --format Go -
 ## Javascript API Example
 
 ```javascript
-const GeneratorCreate = require('composer-cli').Generator.Create;
+const GeneratorCreate = require('@sp-temp/composer-cli').Generator.Create;
 
 let options = {
   archiveFile: 'digitalPropertyNetwork.bna',

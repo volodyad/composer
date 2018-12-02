@@ -15,7 +15,7 @@
 'use strict';
 
 const EventEmitter = require('events');
-const Resource = require('composer-common').Resource;
+const Resource = require('@sp-temp/composer-common').Resource;
 
 const baseDefaultOptions = {
     convertResourcesToRelationships: true,

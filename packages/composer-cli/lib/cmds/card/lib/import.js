@@ -16,7 +16,7 @@
 
 const cmdUtil = require('../../utils/cmdutils');
 const fs = require('fs');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const Validate = require('./validate');
 const path = require('path');
 const chalk = require('chalk');

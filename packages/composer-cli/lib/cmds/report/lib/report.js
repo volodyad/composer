@@ -14,7 +14,7 @@
 
 'use strict';
 const cmdUtil = require('../../utils/cmdutils');
-const report = require('composer-report');
+const report = require('@sp-temp/composer-report');
 const chalk = require('chalk');
 
 /**

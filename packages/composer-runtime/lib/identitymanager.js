@@ -15,7 +15,7 @@
 'use strict';
 
 const createHash = require('sha.js');
-const { Certificate, Logger } = require('composer-common');
+const { Certificate, Logger } = require('@sp-temp/composer-common');
 const TransactionHandler = require('./transactionhandler');
 const LOG = Logger.getLog('IdentityManager');
 

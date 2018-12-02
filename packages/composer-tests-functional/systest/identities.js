@@ -15,10 +15,10 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-admin').BusinessNetworkDefinition;
-const { CertificateUtil, IdCard } = require('composer-common');
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-admin').BusinessNetworkDefinition;
+const { CertificateUtil, IdCard } = require('@sp-temp/composer-common');
 const fs = require('fs');
 const path = require('path');
 const TestUtil = require('./testutil');

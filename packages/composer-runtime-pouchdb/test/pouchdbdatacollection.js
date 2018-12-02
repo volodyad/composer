@@ -14,7 +14,7 @@
 
 'use strict';
 
-const DataCollection = require('composer-runtime').DataCollection;
+const DataCollection = require('@sp-temp/composer-runtime').DataCollection;
 const PouchDB = require('pouchdb-core');
 const PouchDBDataCollection = require('..').PouchDBDataCollection;
 const PouchDBDataService = require('..').PouchDBDataService;

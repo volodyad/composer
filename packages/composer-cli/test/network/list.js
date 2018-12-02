@@ -14,15 +14,15 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const AssetRegistry = require('composer-client').AssetRegistry;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const AssetRegistry = require('@sp-temp/composer-client').AssetRegistry;
 const fs = require('fs');
 const List = require('../../lib/cmds/network/listCommand.js');
 const ListCmd = require('../../lib/cmds/network/lib/list.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
-const Serializer = require('composer-common').Serializer;
+const Serializer = require('@sp-temp/composer-common').Serializer;
 const Pretty = require('prettyjson');
 
 require('chai').should();

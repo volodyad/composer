@@ -15,20 +15,20 @@
 'use strict';
 
 const AccessController = require('../lib/accesscontroller');
-const AssetDeclaration = require('composer-common').AssetDeclaration;
-const ClassDeclaration = require('composer-common').ClassDeclaration;
+const AssetDeclaration = require('@sp-temp/composer-common').AssetDeclaration;
+const ClassDeclaration = require('@sp-temp/composer-common').ClassDeclaration;
 const DataCollection = require('../lib/datacollection');
 const DataService = require('../lib/dataservice');
 const EventEmitter = require('events');
-const Introspector = require('composer-common').Introspector;
-const Factory = require('composer-common').Factory;
-const ModelFile = require('composer-common').ModelFile;
-const ModelManager = require('composer-common').ModelManager;
-const ParticipantDeclaration = require('composer-common').ParticipantDeclaration;
+const Introspector = require('@sp-temp/composer-common').Introspector;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelFile = require('@sp-temp/composer-common').ModelFile;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const ParticipantDeclaration = require('@sp-temp/composer-common').ParticipantDeclaration;
 const Registry = require('../lib/registry');
 const RegistryManager = require('../lib/registrymanager');
-const Serializer = require('composer-common').Serializer;
-const TransactionDeclaration = require('composer-common').TransactionDeclaration;
+const Serializer = require('@sp-temp/composer-common').Serializer;
+const TransactionDeclaration = require('@sp-temp/composer-common').TransactionDeclaration;
 
 const chai = require('chai');
 const should = chai.should();

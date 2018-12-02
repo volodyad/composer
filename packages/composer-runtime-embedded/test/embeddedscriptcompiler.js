@@ -15,7 +15,7 @@
 'use strict';
 
 const EmbeddedScriptCompiler = require('..').EmbeddedScriptCompiler;
-const ScriptCompiler = require('composer-runtime').ScriptCompiler;
+const ScriptCompiler = require('@sp-temp/composer-runtime').ScriptCompiler;
 
 require('chai').should();
 const sinon = require('sinon');

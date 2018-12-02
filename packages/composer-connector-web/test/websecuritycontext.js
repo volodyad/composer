@@ -14,8 +14,8 @@
 
 'use strict';
 
-const Connection = require('composer-common').Connection;
-const SecurityContext = require('composer-common').SecurityContext;
+const Connection = require('@sp-temp/composer-common').Connection;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
 const WebSecurityContext = require('../lib/websecuritycontext');
 
 const chai = require('chai');

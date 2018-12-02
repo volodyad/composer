@@ -16,10 +16,10 @@
 
 const Api = require('../lib/api');
 const assert = require('assert');
-const ModelManager = require('composer-common').ModelManager;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const path = require('path');
 const request = require('request-promise-any');
-const ScriptManager = require('composer-common').ScriptManager;
+const ScriptManager = require('@sp-temp/composer-common').ScriptManager;
 const ScriptCompiler = require('../lib/scriptcompiler');
 const SourceMapConsumer = require('source-map').SourceMapConsumer;
 const SourceNode = require('source-map').SourceNode;

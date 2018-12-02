@@ -14,12 +14,12 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
-const IdCard = require('composer-common').IdCard;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 require('loopback-component-passport');
-const NetworkCardStoreManager= require('composer-common').NetworkCardStoreManager;
+const NetworkCardStoreManager= require('@sp-temp/composer-common').NetworkCardStoreManager;
 const server = require('../server/server');
 
 const chai = require('chai');

@@ -14,8 +14,8 @@
 
 'use strict';
 
-const { BusinessNetworkConnection } = require('composer-client');
-const { BusinessNetworkDefinition } = require('composer-common');
+const { BusinessNetworkConnection } = require('@sp-temp/composer-client');
+const { BusinessNetworkDefinition } = require('@sp-temp/composer-common');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const Pretty = require('prettyjson');
 const Submit = require('../../lib/cmds/transaction/submitCommand.js');

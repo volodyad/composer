@@ -14,7 +14,7 @@
 
 'use strict';
 
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('TransactionHandler');
 
 /**

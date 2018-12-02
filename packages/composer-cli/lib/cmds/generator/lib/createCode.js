@@ -14,9 +14,9 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const BusinessNetworkDefinition = Admin.BusinessNetworkDefinition;
-const CodeGen = require('composer-common').CodeGen;
+const CodeGen = require('@sp-temp/composer-common').CodeGen;
 const FileWriter = CodeGen.FileWriter;
 const fs = require('fs');
 const GoLangVisitor = CodeGen.GoLangVisitor;

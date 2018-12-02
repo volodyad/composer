@@ -40,7 +40,7 @@ Example: `f1c5b9fe136d7f2d31b927e0dcb745499aa039b201f83fe34e243f36e1984862`
 ## Javascript API Example
 
 ``` javascript
-const IdentityRevoke = require('composer-cli').Identity.Revoke;
+const IdentityRevoke = require('@sp-temp/composer-cli').Identity.Revoke;
 
 let options = {
   card: 'admin@tutorial-network',

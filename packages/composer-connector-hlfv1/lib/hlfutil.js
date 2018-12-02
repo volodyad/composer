@@ -14,10 +14,10 @@
 
 'use strict';
 
-const Globalize = require('composer-common').Globalize;
+const Globalize = require('@sp-temp/composer-common').Globalize;
 const HLFSecurityContext = require('./hlfsecuritycontext');
-const SecurityException = require('composer-common').SecurityException;
-const Util = require('composer-common').Util;
+const SecurityException = require('@sp-temp/composer-common').SecurityException;
+const Util = require('@sp-temp/composer-common').Util;
 
 /**
  * Internal Utility Class

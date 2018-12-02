@@ -14,11 +14,11 @@
 
 'use strict';
 
-const Client = require('composer-client');
+const Client = require('@sp-temp/composer-client');
 const BusinessNetworkConnection = Client.BusinessNetworkConnection;
 const ParticipantRegistry = Client.ParticipantRegistry;
 const IdentityRegistry = Client.IdentityRegistry;
-const Common = require('composer-common');
+const Common = require('@sp-temp/composer-common');
 const BusinessNetworkDefinition = Common.BusinessNetworkDefinition;
 const Factory = Common.Factory;
 const Resource = Common.Resource;

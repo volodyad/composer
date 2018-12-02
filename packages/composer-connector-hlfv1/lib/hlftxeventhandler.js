@@ -13,7 +13,7 @@
  */
 
 'use strict';
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const HLFUtil = require('./hlfutil');
 
 const LOG = Logger.getLog('HLFTxEventHandler');

@@ -14,12 +14,12 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
+const Admin = require('@sp-temp/composer-admin');
 const fs = require('fs');
 const StartCmd = require('../../lib/cmds/network/startCommand.js');
 const cmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const Export = require('../../lib/cmds/card/lib/export');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 
 require('chai').should();
 

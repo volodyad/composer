@@ -15,8 +15,8 @@
 'use strict';
 
 const InvalidRelationship = require('../lib/invalidrelationship');
-const ModelManager = require('composer-common').ModelManager;
-const Relationship = require('composer-common').Relationship;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
+const Relationship = require('@sp-temp/composer-common').Relationship;
 
 require('chai').should();
 

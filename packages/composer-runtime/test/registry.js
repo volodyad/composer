@@ -19,9 +19,9 @@ const AccessException = require('../lib/accessexception');
 const DataCollection = require('../lib/datacollection');
 const EventEmitter = require('events');
 const Registry = require('../lib/registry');
-const Resource = require('composer-common').Resource;
-const Serializer = require('composer-common').Serializer;
-const ClassDeclaration = require('composer-common').ClassDeclaration;
+const Resource = require('@sp-temp/composer-common').Resource;
+const Serializer = require('@sp-temp/composer-common').Serializer;
+const ClassDeclaration = require('@sp-temp/composer-common').ClassDeclaration;
 
 const chai = require('chai');
 chai.should();

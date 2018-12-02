@@ -16,7 +16,7 @@
 /* tslint:disable:max-classes-per-file */
 import { BusinessNetworkCardStore, IdCard } from 'composer-common';
 
-const ProxyBusinessNetworkCardStore = require('composer-connector-proxy').ProxyBusinessNetworkCardStore;
+const ProxyBusinessNetworkCardStore = require('@sp-temp/composer-connector-proxy').ProxyBusinessNetworkCardStore;
 import { PlaygroundBusinessNetworkCardStore } from './playgroundbusinessnetworkcardstore';
 import * as sinon from 'sinon';
 import { BrowserBusinessNetworkCardStore } from './browserbusinessnetworkcardstore';

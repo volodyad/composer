@@ -27,7 +27,7 @@ Options:
 ## Javascript API Example
 
 ```javascript
-const CardExport = require('composer-cli').Card.Export;
+const CardExport = require('@sp-temp/composer-cli').Card.Export;
 
 let options = {
   file: 'dan.card',

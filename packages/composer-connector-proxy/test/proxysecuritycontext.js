@@ -16,7 +16,7 @@
 
 const ProxyConnection = require('../lib/proxyconnection');
 const ProxySecurityContext = require('../lib/proxysecuritycontext');
-const SecurityContext = require('composer-common').SecurityContext;
+const SecurityContext = require('@sp-temp/composer-common').SecurityContext;
 
 require('chai').should();
 const sinon = require('sinon');

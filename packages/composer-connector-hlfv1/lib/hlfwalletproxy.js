@@ -15,7 +15,7 @@
 'use strict';
 
 const api = require('fabric-client/lib/api');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const KeyValueStore = api.KeyValueStore;
 
 const LOG = Logger.getLog('HLFWalletProxy');

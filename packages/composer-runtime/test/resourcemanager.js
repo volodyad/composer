@@ -16,8 +16,8 @@
 
 const Api = require('../lib/api');
 const Context = require('../lib/context');
-const Factory = require('composer-common').Factory;
-const ModelManager = require('composer-common').ModelManager;
+const Factory = require('@sp-temp/composer-common').Factory;
+const ModelManager = require('@sp-temp/composer-common').ModelManager;
 const Registry = require('../lib/registry');
 const RegistryManager = require('../lib/registrymanager');
 const ResourceManager = require('../lib/resourcemanager');

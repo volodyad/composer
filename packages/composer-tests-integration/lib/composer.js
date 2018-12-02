@@ -14,12 +14,12 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkCardStore = require('composer-common').BusinessNetworkCardStore;
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkCardStore = require('@sp-temp/composer-common').BusinessNetworkCardStore;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const childProcess = require('child_process');
 const fs = require('fs-extra');
-const IdCard = require('composer-common').IdCard;
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const matchPattern = require('lodash-match-pattern');
 const net = require('net');
 const path = require('path');

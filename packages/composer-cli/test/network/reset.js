@@ -14,8 +14,8 @@
 
 'use strict';
 
-const Admin = require('composer-admin');
-const IdCard = require('composer-common').IdCard;
+const Admin = require('@sp-temp/composer-admin');
+const IdCard = require('@sp-temp/composer-common').IdCard;
 const ResetCMD = require('../../lib/cmds/network/resetCommand.js');
 const CmdUtil = require('../../lib/cmds/utils/cmdutils.js');
 const Reset = require('../../lib/cmds/network/lib/reset.js');

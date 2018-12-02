@@ -18,7 +18,7 @@ const cheerio = require('cheerio');
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const playgroundAPI = require('composer-playground-api');
+const playgroundAPI = require('@sp-temp/composer-playground-api');
 
 /**
  * Create an Express.js application that hosts all of the Composer

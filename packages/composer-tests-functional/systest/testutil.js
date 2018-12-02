@@ -14,10 +14,10 @@
 
 'use strict';
 
-const AdminConnection = require('composer-admin').AdminConnection;
-const BusinessNetworkConnection = require('composer-client').BusinessNetworkConnection;
-const { ConnectionProfileManager, IdCard, NetworkCardStoreManager } = require('composer-common');
-const commonPackageJson = require('composer-common/package.json');
+const AdminConnection = require('@sp-temp/composer-admin').AdminConnection;
+const BusinessNetworkConnection = require('@sp-temp/composer-client').BusinessNetworkConnection;
+const { ConnectionProfileManager, IdCard, NetworkCardStoreManager } = require('@sp-temp/composer-common');
+const commonPackageJson = require('@sp-temp/composer-common/package.json');
 const composerVersion = commonPackageJson.version;
 const net = require('net');
 const path = require('path');
@@ -199,8 +199,8 @@ class TestUtil {
                 // Create all necessary configuration for the web runtime.
                 if (TestUtil.isWeb()) {
 
-                    ConnectionProfileManager.registerConnectionManager('web', require('composer-connector-web'));
-                    const walletmodule = require('composer-wallet-inmemory');
+                    ConnectionProfileManager.registerConnectionManager('web', require('@sp-temp/composer-connector-web'));
+                    const walletmodule = require('@sp-temp/composer-wallet-inmemory');
                     let cardStore = NetworkCardStoreManager.getCardStore( { type: 'composer-wallet-inmemory',walletmodule } );
                     adminConnection = new AdminConnection({cardStore});
                     cardStoreForDeploy = cardStore;
@@ -215,10 +215,10 @@ class TestUtil {
 
 
                     // A whole bunch of dynamic requires to trick browserify.
-                    const ConnectorServer = dynamicRequire('composer-connector-server');
-                    const EmbeddedConnectionManager = dynamicRequire('composer-connector-embedded');
+                    const ConnectorServer = dynamicrequire('@sp-temp/composer-connector-server');
+                    const EmbeddedConnectionManager = dynamicrequire('@sp-temp/composer-connector-embedded');
 
-                    const ProxyConnectionManager = dynamicRequire('composer-connector-proxy');
+                    const ProxyConnectionManager = dynamicrequire('@sp-temp/composer-connector-proxy');
                     const socketIO = dynamicRequire('socket.io');
 
                     // We are using the embedded connector, but we configure it to route through the
