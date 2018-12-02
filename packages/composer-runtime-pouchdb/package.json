@@ -1,7 +1,7 @@
 {
-  "name": "composer-runtime-pouchdb",
+  "name": "@sp-temp/composer-runtime-pouchdb",
   "version": "0.20.5",
-  "description": "Common PouchDB based runtime container code for Hyperledger Composer",
+  "description": "Common PouchDB based runtime container code for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "3.5.0",
@@ -73,8 +73,8 @@
     }
   },
   "dependencies": {
-    "composer-common": "^0.20.5",
-    "composer-runtime": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-runtime": "^0.20.5",
     "debug": "2.6.9",
     "istanbul-lib-instrument": "1.7.2",
     "pouchdb-collate": "6.2.0",

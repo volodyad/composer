@@ -1,14 +1,14 @@
 {
-  "name": "composer-documentation",
+  "name": "@sp-temp/composer-documentation",
   "version": "0.20.5",
-  "description": "Generates documentation packages for Hyperlegder Composer Business Networks",
+  "description": "Generates documentation packages for Hyperlegder @sp-temp/composer Business Networks",
   "bin": {
     "opus": "bin/opus"
   },
   "main": "index.js",
   "scripts": {
     "pretest": "pegjs  ./lib/grammar/modelfile-cmts.pegjs ./lib/processors/parsers/modelfile-cmts.js && npm run lint",
-    "systemnsDocs": "./bin/opus --archive dummy.bna --outdir ./out --config ./_configs/sns-config.yaml --nsDocsRoot=../composer-common/lib/system/",
+    "systemnsDocs": "./bin/opus --archive dummy.bna --outdir ./out --config ./_configs/sns-config.yaml --nsDocsRoot=../@sp-temp/composer-common/lib/system/",
     "lint": "eslint .",
     "postlint": "npm run licchk",
     "licchk": "license-check-and-add",
@@ -37,9 +37,9 @@
   "dependencies": {
     "chalk": "1.1.3",
     "comment-parser": "0.4.0",
-    "composer-admin": "^0.20.5",
-    "composer-client": "^0.20.5",
-    "composer-common": "^0.20.5",
+    "@sp-temp/composer-admin": "^0.20.5",
+    "@sp-temp/composer-client": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
     "debug-stream": "3.0.1",
     "doctrine": "2.0.0",
     "js-yaml": "3.10.0",

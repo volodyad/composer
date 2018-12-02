@@ -1,14 +1,14 @@
 {
-  "name": "composer-rest-server",
+  "name": "@sp-temp/composer-rest-server",
   "version": "0.20.5",
-  "description": "Hyperledger Composer REST server that uses the Hyperledger Composer LoopBack connector",
+  "description": "Hyperledger @sp-temp/composer REST server that uses the Hyperledger @sp-temp/composer LoopBack connector",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
   },
   "main": "index.js",
   "bin": {
-    "composer-rest-server": "cli.js"
+    "@sp-temp/composer-rest-server": "cli.js"
   },
   "scripts": {
     "start": "node .",
@@ -23,22 +23,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "1.17.0",
     "clui": "0.3.1",
-    "composer-admin": "^0.20.5",
-    "composer-common": "^0.20.5",
-    "composer-wallet-filesystem": "^0.20.5",
-    "composer-wallet-inmemory": "^0.20.5",
+    "@sp-temp/composer-admin": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-wallet-filesystem": "^0.20.5",
+    "@sp-temp/composer-wallet-inmemory": "^0.20.5",
     "compression": "1.7.3",
     "connect-ensure-login": "0.1.1",
     "cookie-parser": "1.4.3",
@@ -53,7 +53,7 @@
     "loopback-boot": "2.25.0",
     "loopback-component-explorer": "5.2.0",
     "loopback-component-passport": "3.2.0",
-    "loopback-connector-composer": "^0.20.5",
+    "loopback-connector-@sp-temp/composer": "^0.20.5",
     "loopback-datasource-juggler": "3.24.1",
     "passport-local": "1.0.0",
     "pug": "2.0.0",
@@ -68,8 +68,8 @@
     "chai-as-promised": "6.0.0",
     "chai-http": "3.0.0",
     "clone": "2.1.1",
-    "composer-client": "^0.20.5",
-    "composer-connector-embedded": "^0.20.5",
+    "@sp-temp/composer-client": "^0.20.5",
+    "@sp-temp/composer-connector-embedded": "^0.20.5",
     "eslint": "3.17.1",
     "jsdoc": "3.5.5",
     "ldapjs": "1.0.1",

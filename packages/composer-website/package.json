@@ -1,14 +1,14 @@
 {
-  "name": "composer-website",
+  "name": "@sp-temp/composer-website",
   "version": "0.20.5",
   "private": true,
-  "description": "Hyperledger Composer is a blockchain development framework for Hyperledger Fabric: a library of assets/functions for creating blockchain-based applications.",
+  "description": "Hyperledger @sp-temp/composer is a blockchain development framework for Hyperledger Fabric: a library of assets/functions for creating blockchain-based applications.",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
   },
   "scripts": {
-    "systemnsDocs": "../composer-documentation/bin/opus --archive dummy.bna --outdir ./jekylldocs/systemns --config ../composer-documentation/_configs/sns-config.yaml --nsDocsRoot ../composer-common/lib/system/",
+    "systemnsDocs": "../@sp-temp/composer-documentation/bin/opus --archive dummy.bna --outdir ./jekylldocs/systemns --config ../@sp-temp/composer-documentation/_configs/sns-config.yaml --nsDocsRoot ../@sp-temp/composer-common/lib/system/",
     "doc": "npm run apiref && ./scripts/generate-uml.sh",
     "apiref": "npm run systemnsDocs && mkdirp ./jsondata && ./scripts/generate-apidocs.sh ",
     "jekyllserve": "npm run apiref && ./scripts/run-jekyll.sh serve ./jekylldocs",
@@ -19,21 +19,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "devDependencies": {
-    "composer-admin": "^0.20.5",
-    "composer-client": "^0.20.5",
-    "composer-common": "^0.20.5",
-    "composer-documentation": "^0.20.5",
-    "composer-runtime": "^0.20.5",
+    "@sp-temp/composer-admin": "^0.20.5",
+    "@sp-temp/composer-client": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-documentation": "^0.20.5",
+    "@sp-temp/composer-runtime": "^0.20.5",
     "license-check-and-add": "2.3.1",
     "mkdirp": "0.5.1",
     "node-plantuml": "0.5.0",

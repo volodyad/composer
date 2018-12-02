@@ -8,7 +8,7 @@
     "sleep-promise": "2.0.0",
     "license-check-and-add": "2.3.1"
   },
-  "name": "composer",
+  "name": "@sp-temp/@sp-temp/composer",
   "description": "You must install [Lerna](https://lernajs.io) to build this multi-package repository.",
   "version": "0.20.5",
   "main": "index.js",
@@ -17,6 +17,8 @@
     "postinstall": "npm run pkgcheck && npm run bootstrap",
     "repoclean": "lerna clean",
     "bootstrap": "lerna bootstrap",
+    "ls": "lerna ls",
+    "release": "lerna publish",
     "pretest": "npm run depcheck & npm run licchk",
     "licchk": "license-check-and-add",
     "test": "lerna run test",
@@ -27,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "dependencies": {},
   "license-check-and-add-config": {

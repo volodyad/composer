@@ -1,7 +1,7 @@
 {
-  "name": "composer-tests-integration",
+  "name": "@sp-temp/composer-tests-integration",
   "version": "0.20.5",
-  "description": "Integration tests for Hyperledger Composer",
+  "description": "Integration tests for Hyperledger @sp-temp/composer",
   "main": "index.js",
   "scripts": {
     "start_verdaccio": "PM2_HOME=.pm2 pm2 start verdaccio -- -l 0.0.0.0:4873 -c scripts/config.yaml",
@@ -22,22 +22,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyperledger/composer.git"
+    "url": "git+https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hyperledger/composer/issues"
+    "url": "https://github.com/hyperledger/@sp-temp/composer/issues"
   },
-  "homepage": "https://github.com/hyperledger/composer#readme",
+  "homepage": "https://github.com/hyperledger/@sp-temp/composer#readme",
   "devDependencies": {
     "cheerio": "0.22.0",
-    "composer-admin": "^0.20.5",
-    "composer-common": "^0.20.5",
-    "composer-wallet-redis": "0.0.11-20180318153457",
+    "@sp-temp/composer-admin": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-wallet-redis": "0.0.11-20180318153457",
     "cucumber": "2.2.0",
     "eslint": "3.17.1",
     "find-process": "1.1.1",

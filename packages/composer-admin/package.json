@@ -1,7 +1,7 @@
 {
-  "name": "composer-admin",
+  "name": "@sp-temp/composer-admin",
   "version": "0.20.5",
-  "description": "Hyperledger Composer Admin, code that manages business networks deployed to Hyperledger Fabric",
+  "description": "Hyperledger @sp-temp/composer Admin, code that manages business networks deployed to Hyperledger Fabric",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "3.5.0",
@@ -43,11 +43,11 @@
     "sinon": "2.3.8"
   },
   "dependencies": {
-    "composer-common": "^0.20.5",
-    "composer-connector-hlfv1": "^0.20.5",
-    "composer-connector-proxy": "^0.20.5",
-    "composer-wallet-filesystem": "^0.20.5",
-    "composer-wallet-inmemory": "^0.20.5"
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-connector-hlfv1": "^0.20.5",
+    "@sp-temp/composer-connector-proxy": "^0.20.5",
+    "@sp-temp/composer-wallet-filesystem": "^0.20.5",
+    "@sp-temp/composer-wallet-inmemory": "^0.20.5"
   },
   "license-check-and-add-config": {
     "folder": ".",

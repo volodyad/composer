@@ -1,7 +1,7 @@
 {
-  "name": "composer-report",
+  "name": "@sp-temp/composer-report",
   "version": "0.20.5",
-  "description": "Hyperledger Composer diagnostics",
+  "description": "Hyperledger @sp-temp/composer diagnostics",
   "bin": "bin/cmd.js",
   "main": "lib/report.js",
   "scripts": {
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "3.5.0",

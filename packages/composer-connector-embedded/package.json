@@ -1,7 +1,7 @@
 {
-  "name": "composer-connector-embedded",
+  "name": "@sp-temp/composer-connector-embedded",
   "version": "0.20.5",
-  "description": "The embedded client connector for Hyperledger Composer",
+  "description": "The embedded client connector for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "license-check-and-add-config": {
     "folder": ".",
@@ -74,9 +74,9 @@
     "watchify": "3.7.0"
   },
   "dependencies": {
-    "composer-common": "^0.20.5",
-    "composer-runtime": "^0.20.5",
-    "composer-runtime-embedded": "^0.20.5"
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-runtime": "^0.20.5",
+    "@sp-temp/composer-runtime-embedded": "^0.20.5"
   },
   "nyc": {
     "exclude": [

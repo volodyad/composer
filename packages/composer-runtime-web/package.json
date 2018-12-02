@@ -1,7 +1,7 @@
 {
-  "name": "composer-runtime-web",
+  "name": "@sp-temp/composer-runtime-web",
   "version": "0.20.5",
-  "description": "The web runtime container for Hyperledger Composer",
+  "description": "The web runtime container for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "devDependencies": {
     "babel-core": "6.21.0",
@@ -85,9 +85,9 @@
     }
   },
   "dependencies": {
-    "composer-common": "^0.20.5",
-    "composer-runtime": "^0.20.5",
-    "composer-runtime-pouchdb": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-runtime": "^0.20.5",
+    "@sp-temp/composer-runtime-pouchdb": "^0.20.5",
     "pouchdb-adapter-idb": "6.2.0",
     "pouchdb-adapter-websql": "6.2.0",
     "xhr": "2.4.0"

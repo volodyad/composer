@@ -1,13 +1,13 @@
 {
-  "name": "composer-playground-api",
+  "name": "@sp-temp/composer-playground-api",
   "version": "0.20.5",
-  "description": "The REST API for the Hyperledger Composer Playground",
+  "description": "The REST API for the Hyperledger @sp-temp/composer Playground",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
   },
   "bin": {
-    "composer-playground-api": "cli.js"
+    "@sp-temp/composer-playground-api": "cli.js"
   },
   "main": "index.js",
   "scripts": {
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "license-check-and-add-config": {
     "folder": ".",
@@ -80,8 +80,8 @@
   "dependencies": {
     "async": "2.5.0",
     "body-parser": "1.17.0",
-    "composer-common": "^0.20.5",
-    "composer-connector-server": "^0.20.5",
+    "@sp-temp/composer-common": "^0.20.5",
+    "@sp-temp/composer-connector-server": "^0.20.5",
     "dotenv": "4.0.0",
     "express": "4.15.2",
     "http-status": "1.0.1",

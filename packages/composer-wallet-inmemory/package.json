@@ -1,7 +1,7 @@
 {
-  "name": "composer-wallet-inmemory",
+  "name": "@sp-temp/composer-wallet-inmemory",
   "version": "0.20.5",
-  "description": "The Hyperledger Fabric v1.x Node.JS runtime container for Hyperledger Composer",
+  "description": "The Hyperledger Fabric v1.x Node.JS runtime container for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/composer.git"
+    "url": "https://github.com/hyperledger/@sp-temp/composer.git"
   },
   "keywords": [
     "blockchain",
     "hyperledger",
     "solutions"
   ],
-  "author": "Hyperledger Composer",
+  "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "3.5.0",
@@ -43,7 +43,7 @@
     "sinon": "2.3.8"
   },
   "dependencies": {
-    "composer-common": "^0.20.5"
+    "@sp-temp/composer-common": "^0.20.5"
   },
   "license-check-and-add-config": {
     "folder": ".",

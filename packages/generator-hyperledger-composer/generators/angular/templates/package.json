@@ -17,7 +17,7 @@
     "build": "ng build",
     "prepack": "npm run build",
 <% if(apiServer == 'generate'){ %>
-    "api": "composer-rest-server --card <%= cardName %> --namespaces <%= apiNamespace %> --port <%= apiPort %>",
+    "api": "@sp-temp/composer-rest-server --card <%= cardName %> --namespaces <%= apiNamespace %> --port <%= apiPort %>",
     "start": "concurrently \"ng serve --proxy-config proxy.conf.js --host 0.0.0.0\" \"npm run api\"",
 <% }else{ %>
     "start": "ng serve --proxy-config proxy.conf.js --host 0.0.0.0",
@@ -40,7 +40,7 @@
     "bootstrap": "^3.3.7",
     "cfenv": "^1.0.4",
 <% if(apiServer == 'generate'){ %>
-    "composer-rest-server": "<%= composerversion %>",
+    "@sp-temp/composer-rest-server": "<%= @sp-temp/composerversion %>",
 <% } %>
     "concurrently": "^3.1.0",
     "config": "^1.21.0",
