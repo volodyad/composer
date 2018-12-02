@@ -15,7 +15,7 @@
 'use strict';
 
 const NodeDataCollection = require('../lib/nodedatacollection');
-const DataCollection = require('composer-runtime').DataCollection;
+const DataCollection = require('@sp-temp/composer-runtime').DataCollection;
 const NodeUtils = require('../lib/nodeutils');
 const ChaincodeStub = require('fabric-shim/lib/stub');
 const StateQueryIterator = require('fabric-shim/lib/iterators').StateQueryIterator;

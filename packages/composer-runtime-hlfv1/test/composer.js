@@ -14,10 +14,10 @@
 
 'use strict';
 
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 const Composer = require('../lib/composer');
 const NodeContainer = require('../lib/nodecontainer');
-const { Context, Engine, InstalledBusinessNetwork } = require('composer-runtime');
+const { Context, Engine, InstalledBusinessNetwork } = require('@sp-temp/composer-runtime');
 const shim = require('fabric-shim');
 const ChaincodeStub = require('fabric-shim/lib/stub');
 

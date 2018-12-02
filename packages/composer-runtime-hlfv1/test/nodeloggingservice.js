@@ -14,8 +14,8 @@
 
 'use strict';
 
-const LoggingService = require('composer-runtime').LoggingService;
-const Logger = require('composer-common').Logger;
+const LoggingService = require('@sp-temp/composer-runtime').LoggingService;
+const Logger = require('@sp-temp/composer-common').Logger;
 const NodeLoggingService = require('../lib/nodeloggingservice');
 const ChaincodeStub = require('fabric-shim/lib/stub');
 

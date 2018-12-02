@@ -14,9 +14,9 @@
 
 'use strict';
 
-const DataCollection = require('composer-runtime').DataCollection;
+const DataCollection = require('@sp-temp/composer-runtime').DataCollection;
 const NodeUtils = require('./nodeutils');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('NodeDataCollection');
 
 /**

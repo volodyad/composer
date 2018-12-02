@@ -14,9 +14,9 @@
 
 'use strict';
 
-const LoggingService = require('composer-runtime').LoggingService;
+const LoggingService = require('@sp-temp/composer-runtime').LoggingService;
 const LOGLEVEL_KEY = 'ComposerLogCfg';
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 /**
  * Base class representing the logging service provided by a {@link Container}.
  * @protected

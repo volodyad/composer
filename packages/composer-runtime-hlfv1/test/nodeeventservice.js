@@ -15,7 +15,7 @@
 'use strict';
 
 const NodeEventService = require('../lib/nodeeventservice');
-const EventService = require('composer-runtime').EventService;
+const EventService = require('@sp-temp/composer-runtime').EventService;
 const ChaincodeStub = require('fabric-shim/lib/stub');
 
 

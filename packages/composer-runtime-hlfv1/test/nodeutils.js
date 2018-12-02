@@ -15,7 +15,7 @@
 'use strict';
 
 const NodeUtils = require('../lib/nodeutils');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const ChaincodeStub = require('fabric-shim/lib/stub');
 const StateQueryIterator = require('fabric-shim/lib/iterators').StateQueryIterator;
 

@@ -14,10 +14,10 @@
 
 'use strict';
 
-const Container = require('composer-runtime').Container;
+const Container = require('@sp-temp/composer-runtime').Container;
 const NodeLoggingService = require('./nodeloggingservice');
 const version = require('../package.json').version;
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('NodeContainer');
 
 /**

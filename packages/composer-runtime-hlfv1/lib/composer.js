@@ -16,11 +16,11 @@
 
 const shim = require('fabric-shim');
 const NodeContext = require('./nodecontext');
-const { Engine, InstalledBusinessNetwork } = require('composer-runtime');
+const { Engine, InstalledBusinessNetwork } = require('@sp-temp/composer-runtime');
 const NodeContainer = require('./nodecontainer');
-const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
+const BusinessNetworkDefinition = require('@sp-temp/composer-common').BusinessNetworkDefinition;
 
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('Composer');
 
 /**

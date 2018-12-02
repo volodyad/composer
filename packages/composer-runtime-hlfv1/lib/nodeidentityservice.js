@@ -14,9 +14,9 @@
 
 'use strict';
 
-const Certificate = require('composer-common').Certificate;
-const IdentityService = require('composer-runtime').IdentityService;
-const Logger = require('composer-common').Logger;
+const Certificate = require('@sp-temp/composer-common').Certificate;
+const IdentityService = require('@sp-temp/composer-runtime').IdentityService;
+const Logger = require('@sp-temp/composer-common').Logger;
 
 const LOG = Logger.getLog('NodeIdentityService');
 

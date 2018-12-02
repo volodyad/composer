@@ -14,10 +14,10 @@
 
 'use strict';
 
-const DataService = require('composer-runtime').DataService;
+const DataService = require('@sp-temp/composer-runtime').DataService;
 const NodeDataCollection = require('./nodedatacollection');
 const NodeUtils = require('./nodeutils');
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('NodeDataService');
 
 const collectionObjectType = '$syscollections';

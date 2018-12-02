@@ -14,8 +14,8 @@
 
 'use strict';
 
-const { BusinessNetworkDefinition } = require('composer-common');
-const { Context, Engine, InstalledBusinessNetwork } = require('composer-runtime');
+const { BusinessNetworkDefinition } = require('@sp-temp/composer-common');
+const { Context, Engine, InstalledBusinessNetwork } = require('@sp-temp/composer-runtime');
 const NodeContainer = require('../lib/nodecontainer');
 const NodeContext = require('../lib/nodecontext');
 const NodeDataService = require('../lib/nodedataservice');

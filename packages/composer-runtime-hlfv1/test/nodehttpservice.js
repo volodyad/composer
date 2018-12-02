@@ -15,7 +15,7 @@
 'use strict';
 
 const NodeHTTPService = require('../lib/nodehttpservice');
-const HTTPService = require('composer-runtime').HTTPService;
+const HTTPService = require('@sp-temp/composer-runtime').HTTPService;
 
 
 const request = require('request');

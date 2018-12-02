@@ -14,14 +14,14 @@
 
 'use strict';
 
-const Context = require('composer-runtime').Context;
+const Context = require('@sp-temp/composer-runtime').Context;
 const NodeDataService = require('./nodedataservice');
 const NodeIdentityService = require('./nodeidentityservice');
 const NodeEventService = require('./nodeeventservice');
 const NodeHTTPService = require('./nodehttpservice');
 //const NodeScriptCompiler = require('./nodescriptcompiler');
 
-const Logger = require('composer-common').Logger;
+const Logger = require('@sp-temp/composer-common').Logger;
 const LOG = Logger.getLog('NodeContext');
 
 
