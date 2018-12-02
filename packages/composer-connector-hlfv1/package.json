@@ -77,7 +77,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
-    "composer-common": "0.20.5",
+    "composer-common": "^0.20.5",
     "eslint": "3.17.1",
     "jsdoc": "3.5.5",
     "license-check-and-add": "2.3.1",

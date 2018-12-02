@@ -85,9 +85,9 @@
     }
   },
   "dependencies": {
-    "composer-common": "0.20.5",
-    "composer-runtime": "0.20.5",
-    "composer-runtime-pouchdb": "0.20.5",
+    "composer-common": "^0.20.5",
+    "composer-runtime": "^0.20.5",
+    "composer-runtime-pouchdb": "^0.20.5",
     "pouchdb-adapter-idb": "6.2.0",
     "pouchdb-adapter-websql": "6.2.0",
     "xhr": "2.4.0"
