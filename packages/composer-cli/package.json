@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-cli",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "Hyperledger @sp-temp/composer command line interfaces (CLIs)",
   "engines": {
     "node": ">=8",

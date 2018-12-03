@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-connector-server",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "The remote connector server for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",

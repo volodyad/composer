@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-cucumber-steps",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "A library of Cucumber steps for testing Hyperledger @sp-temp/composer",
   "main": "index.js",
   "scripts": {

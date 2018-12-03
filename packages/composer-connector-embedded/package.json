@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-connector-embedded",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "The embedded client connector for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",

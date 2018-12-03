@@ -1,6 +1,6 @@
 {
     "name": "@sp-temp/composer-playground",
-    "version": "0.20.5",
+    "version": "0.20.14",
     "description": "A test harness/UI for the web runtime container for Hyperledger @sp-temp/composer",
     "engines": {
         "node": ">=8",

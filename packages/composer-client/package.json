@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-client",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "The node.js client library for Hyperledger @sp-temp/composer, a development framework for Hyperledger Fabric",
   "engines": {
     "node": ">=8",

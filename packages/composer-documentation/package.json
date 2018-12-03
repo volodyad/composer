@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-documentation",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "Generates documentation packages for Hyperlegder @sp-temp/composer Business Networks",
   "bin": {
     "opus": "bin/opus"

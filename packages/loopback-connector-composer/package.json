@@ -1,6 +1,6 @@
 {
-  "name": "loopback-connector-@sp-temp/composer",
-  "version": "0.20.5",
+  "name": "@sp-temp/loopback-connector-composer",
+  "version": "0.20.14",
   "description": "A Loopback connector for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",

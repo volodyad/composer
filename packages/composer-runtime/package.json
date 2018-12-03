@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-runtime",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "The runtime execution environment for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",

@@ -38,8 +38,8 @@ const connectorPackageJSON = require('../package.json');
 const composerVersion = connectorPackageJSON.version;
 
 const installDependencies = {
-    'composer-common' : composerVersion,
-    'composer-runtime-hlfv1' : composerVersion
+    '@sp-temp/composer-common' : composerVersion,
+    '@sp-temp/composer-runtime-hlfv1' : composerVersion
 };
 
 const chaincodePathSection = 'businessnetwork';

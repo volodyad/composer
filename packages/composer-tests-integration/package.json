@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-tests-integration",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "Integration tests for Hyperledger @sp-temp/composer",
   "main": "index.js",
   "scripts": {

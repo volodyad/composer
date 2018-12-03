@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-tests-functional",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "private": true,
   "description": "Functional verification tests for Hyperledger @sp-temp/composer",
   "engines": {

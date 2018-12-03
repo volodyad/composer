@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-runtime-pouchdb",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "Common PouchDB based runtime container code for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",

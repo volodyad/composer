@@ -1,6 +1,6 @@
 {
-  "name": "generator-hyperledger-@sp-temp/composer",
-  "version": "0.20.5",
+  "name": "@sp-temp/generator-hyperledger-composer",
+  "version": "0.20.14",
   "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "description": "Generates projects from Hyperledger @sp-temp/composer business network definitions",

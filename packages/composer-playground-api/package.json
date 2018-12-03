@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-playground-api",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "description": "The REST API for the Hyperledger @sp-temp/composer Playground",
   "engines": {
     "node": ">=8",

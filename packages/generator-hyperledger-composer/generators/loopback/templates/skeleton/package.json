@@ -22,7 +22,7 @@
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0",
     "loopback-component-explorer": "^6.0.0",
-    "loopback-connector-@sp-temp/composer": "<%= version %>",
+    "@sp-temp/loopback-connector-composer": "<%= version %>",
     "loopback": "^3.19.0"
   },
   "devDependencies": {

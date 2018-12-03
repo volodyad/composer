@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-website",
-  "version": "0.20.5",
+  "version": "0.20.14",
   "private": true,
   "description": "Hyperledger @sp-temp/composer is a blockchain development framework for Hyperledger Fabric: a library of assets/functions for creating blockchain-based applications.",
   "engines": {
