@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-connector-web",
-  "version": "0.20.16",
+  "version": "0.20.18",
   "description": "The web client connector for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
@@ -66,8 +66,8 @@
     }
   },
   "devDependencies": {
-    "@sp-temp/composer-common": "^0.20.16",
-    "@sp-temp/composer-runtime-pouchdb": "^0.20.16",
+    "@sp-temp/composer-common": "^0.20.18",
+    "@sp-temp/composer-runtime-pouchdb": "^0.20.18",
     "babel-core": "6.21.0",
     "babel-loader": "6.2.10",
     "babel-polyfill": "6.23.0",
@@ -90,8 +90,8 @@
     "watchify": "3.7.0"
   },
   "dependencies": {
-    "@sp-temp/composer-runtime": "^0.20.16",
-    "@sp-temp/composer-runtime-web": "^0.20.16",
+    "@sp-temp/composer-runtime": "^0.20.18",
+    "@sp-temp/composer-runtime-web": "^0.20.18",
     "uuid": "3.0.1"
   }
 }

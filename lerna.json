@@ -4,5 +4,5 @@
     "packages/@sp-temp/*"
   ],
   "hoist": true,
-  "version": "0.20.17"
+  "version": "0.20.18"
 }

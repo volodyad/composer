@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-report",
-  "version": "0.20.16",
+  "version": "0.20.18",
   "description": "Hyperledger @sp-temp/composer diagnostics",
   "bin": "bin/cmd.js",
   "main": "lib/report.js",

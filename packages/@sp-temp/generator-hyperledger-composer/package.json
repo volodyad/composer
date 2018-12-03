@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/generator-hyperledger-composer",
-  "version": "0.20.16",
+  "version": "0.20.18",
   "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "description": "Generates projects from Hyperledger @sp-temp/composer business network definitions",
@@ -19,8 +19,8 @@
     "test": "nyc mocha -t 0 test/*.js"
   },
   "dependencies": {
-    "@sp-temp/composer-client": "^0.20.16",
-    "@sp-temp/composer-common": "^0.20.16",
+    "@sp-temp/composer-client": "^0.20.18",
+    "@sp-temp/composer-common": "^0.20.18",
     "shelljs": "0.7.7",
     "underscore.string": "3.3.4",
     "yeoman-generator": "0.24.1",
@@ -32,8 +32,8 @@
   },
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.0",
-    "@sp-temp/composer-admin": "^0.20.16",
-    "@sp-temp/composer-connector-embedded": "^0.20.16",
+    "@sp-temp/composer-admin": "^0.20.18",
+    "@sp-temp/composer-connector-embedded": "^0.20.18",
     "@types/chai": "3.4.35",
     "@types/jasmine": "2.5.52",
     "@types/node": "7.0.5",
