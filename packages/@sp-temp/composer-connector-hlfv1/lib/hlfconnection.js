@@ -70,6 +70,7 @@ class HLFConnection extends Connection {
      * @return {HLFQueryManager} A new query manager.
      */
     static createQueryHandler(connection) {
+        //c = 1;
         return new HLFQueryHandler(connection);
     }
 
