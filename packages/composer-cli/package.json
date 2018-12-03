@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-cli",
-  "version": "0.20.14",
+  "version": "0.20.15",
   "description": "Hyperledger @sp-temp/composer command line interfaces (CLIs)",
   "engines": {
     "node": ">=8",
@@ -41,16 +41,16 @@
     "sinon": "2.3.8"
   },
   "dependencies": {
+    "@sp-temp/composer-admin": "^0.20.15",
+    "@sp-temp/composer-client": "^0.20.15",
+    "@sp-temp/composer-common": "^0.20.15",
+    "@sp-temp/composer-documentation": "^0.20.15",
+    "@sp-temp/composer-report": "^0.20.15",
+    "@sp-temp/composer-wallet-filesystem": "^0.20.15",
+    "@sp-temp/composer-wallet-inmemory": "^0.20.15",
     "ajv": "6.1.1",
     "chalk": "1.1.3",
     "cli-table": "0.3.1",
-    "@sp-temp/composer-admin": "^0.20.5",
-    "@sp-temp/composer-client": "^0.20.5",
-    "@sp-temp/composer-common": "^0.20.5",
-    "@sp-temp/composer-documentation": "^0.20.5",
-    "@sp-temp/composer-report": "^0.20.5",
-    "@sp-temp/composer-wallet-filesystem": "^0.20.5",
-    "@sp-temp/composer-wallet-inmemory": "^0.20.5",
     "js-yaml": "3.10.0",
     "mkdirp": "0.5.1",
     "moment": "2.19.3",

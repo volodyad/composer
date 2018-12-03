@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-runtime-embedded",
-  "version": "0.20.14",
+  "version": "0.20.15",
   "description": "The embedded runtime container for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
@@ -73,8 +73,8 @@
     }
   },
   "dependencies": {
-    "@sp-temp/composer-runtime": "^0.20.5",
-    "@sp-temp/composer-runtime-pouchdb": "^0.20.5",
+    "@sp-temp/composer-runtime": "^0.20.15",
+    "@sp-temp/composer-runtime-pouchdb": "^0.20.15",
     "debug": "2.6.9",
     "istanbul-lib-instrument": "1.7.2",
     "pouchdb-adapter-memory": "6.2.0",

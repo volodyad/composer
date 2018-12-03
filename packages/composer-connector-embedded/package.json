@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-connector-embedded",
-  "version": "0.20.14",
+  "version": "0.20.15",
   "description": "The embedded client connector for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
@@ -74,9 +74,9 @@
     "watchify": "3.7.0"
   },
   "dependencies": {
-    "@sp-temp/composer-common": "^0.20.5",
-    "@sp-temp/composer-runtime": "^0.20.5",
-    "@sp-temp/composer-runtime-embedded": "^0.20.5"
+    "@sp-temp/composer-common": "^0.20.15",
+    "@sp-temp/composer-runtime": "^0.20.15",
+    "@sp-temp/composer-runtime-embedded": "^0.20.15"
   },
   "nyc": {
     "exclude": [
