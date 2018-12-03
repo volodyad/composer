@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-client",
-  "version": "0.20.15",
+  "version": "0.20.16",
   "description": "The node.js client library for Hyperledger @sp-temp/composer, a development framework for Hyperledger Fabric",
   "engines": {
     "node": ">=8",
@@ -71,11 +71,11 @@
     }
   },
   "dependencies": {
-    "@sp-temp/composer-common": "^0.20.15",
-    "@sp-temp/composer-connector-hlfv1": "^0.20.15",
-    "@sp-temp/composer-connector-proxy": "^0.20.15",
-    "@sp-temp/composer-wallet-filesystem": "^0.20.15",
-    "@sp-temp/composer-wallet-inmemory": "^0.20.15",
+    "@sp-temp/composer-common": "^0.20.16",
+    "@sp-temp/composer-connector-hlfv1": "^0.20.16",
+    "@sp-temp/composer-connector-proxy": "^0.20.16",
+    "@sp-temp/composer-wallet-filesystem": "^0.20.16",
+    "@sp-temp/composer-wallet-inmemory": "^0.20.16",
     "uuid": "3.0.1"
   },
   "devDependencies": {

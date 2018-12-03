@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-tests-integration",
-  "version": "0.20.15",
+  "version": "0.20.16",
   "description": "Integration tests for Hyperledger @sp-temp/composer",
   "main": "index.js",
   "scripts": {
@@ -34,8 +34,8 @@
   },
   "homepage": "https://github.com/hyperledger/@sp-temp/composer#readme",
   "devDependencies": {
-    "@sp-temp/composer-admin": "^0.20.15",
-    "@sp-temp/composer-common": "^0.20.15",
+    "@sp-temp/composer-admin": "^0.20.16",
+    "@sp-temp/composer-common": "^0.20.16",
     "@sp-temp/composer-wallet-redis": "0.0.11-20180318153457",
     "cheerio": "0.22.0",
     "cucumber": "2.2.0",

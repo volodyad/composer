@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-connector-proxy",
-  "version": "0.20.15",
+  "version": "0.20.16",
   "description": "The proxying client connector for Hyperledger @sp-temp/composer",
   "engines": {
     "node": ">=8",
@@ -63,7 +63,7 @@
     }
   },
   "devDependencies": {
-    "@sp-temp/composer-common": "^0.20.15",
+    "@sp-temp/composer-common": "^0.20.16",
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
     "eslint": "3.17.1",

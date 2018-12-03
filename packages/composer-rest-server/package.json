@@ -1,6 +1,6 @@
 {
   "name": "@sp-temp/composer-rest-server",
-  "version": "0.20.15",
+  "version": "0.20.16",
   "description": "Hyperledger @sp-temp/composer REST server that uses the Hyperledger @sp-temp/composer LoopBack connector",
   "engines": {
     "node": ">=8",
@@ -33,11 +33,11 @@
   "author": "Hyperledger @sp-temp/composer",
   "license": "Apache-2.0",
   "dependencies": {
-    "@sp-temp/composer-admin": "^0.20.15",
-    "@sp-temp/composer-common": "^0.20.15",
-    "@sp-temp/composer-wallet-filesystem": "^0.20.15",
-    "@sp-temp/composer-wallet-inmemory": "^0.20.15",
-    "@sp-temp/loopback-connector-composer": "^0.20.15",
+    "@sp-temp/composer-admin": "^0.20.16",
+    "@sp-temp/composer-common": "^0.20.16",
+    "@sp-temp/composer-wallet-filesystem": "^0.20.16",
+    "@sp-temp/composer-wallet-inmemory": "^0.20.16",
+    "@sp-temp/loopback-connector-composer": "^0.20.16",
     "body-parser": "1.17.0",
     "clui": "0.3.1",
     "compression": "1.7.3",
@@ -64,8 +64,8 @@
     "yargs": "10.0.3"
   },
   "devDependencies": {
-    "@sp-temp/composer-client": "^0.20.15",
-    "@sp-temp/composer-connector-embedded": "^0.20.15",
+    "@sp-temp/composer-client": "^0.20.16",
+    "@sp-temp/composer-connector-embedded": "^0.20.16",
     "chai": "3.5.0",
     "chai-as-promised": "6.0.0",
     "chai-http": "3.0.0",
